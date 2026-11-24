@@ -1,6 +1,150 @@
 {
- "generated_at": "2026-11-23T22:17:02.189000+00:00",
+ "generated_at": "2026-11-24T10:16:36.380000+00:00",
  "items": [
+  {
+   "section": "興味",
+   "theme": "新サービス",
+   "title": "🗂️ ZARMS — Google WorkspaceネイティブのAIプロジェクト管理ツール",
+   "summary": "Xgeneが11月11日にベータ公開した、Google Workspace上で動くAIプロジェクト管理ツールです。タスクの担当者・期限・進捗・議論・成果物を「カード」に集約し、AIが遅延・停滞しているカードを見つけて次のアクションを提案します。料金は人数課金なしのチーム定額。API・MCP連携により、ClaudeやChatGPTなど外部のAIエージェントからも操作できます。日本で広く使われているWorkspace環境にそのまま入る設計で、導入ハードルの低さが話題です。",
+   "url": "https://www.xgene.co.jp/en/news/2026111101-launched",
+   "date": "2026-11-24T10:16:36.380000+00:00"
+  },
+  {
+   "section": "興味",
+   "theme": "新技術",
+   "title": "🌌 天の川銀河を5兆粒子でシミュレーション — 過去最高解像度",
+   "summary": "東京大学を中心とする国際チームが、天の川銀河を最大5兆個の粒子で再現するシミュレーションに成功し、国際スーパーコンピューティング会議SC26で発表しました。従来は10億粒子程度が限界でしたが、AIサロゲートモデルで超新星爆発後のガス応答を近似することで、米Frontier・Auroraと独JUPITER Boosterという3つの異なるエクサスケール機で動作。ピークで毎秒1,440億粒子を処理し、ゴードン・ベル賞の最終候補にも選ばれています。銀河形成の謎に迫る、計算科学の大前進です。",
+   "url": "https://japan.co.jp/e/reports/japan-milky-way-galaxy-supercomputer-simulation-2026.html",
+   "date": "2026-11-24T10:16:36.367000+00:00"
+  },
+  {
+   "section": "興味",
+   "theme": "開発者ツール",
+   "title": "🐳 Arcane — 誰でも使えるモダンなDocker管理ツール",
+   "summary": "Go製のオープンソースツールで、GitHubで約8,900スターを集め11月のトレンドに急浮上しています。コンテナ管理をDevOpsの専門家だけでなく誰でも扱える体験にすることが狙いで、Dockerの操作を分かりやすいUIにまとめています。開発環境の管理ハードルを下げる「インフラの民主化」を象徴するツールとして注目されています。",
+   "url": "https://github.com/getarcaneapp/arcane",
+   "date": "2026-11-24T10:16:36.352000+00:00"
+  },
+  {
+   "section": "興味",
+   "theme": "AIエージェント",
+   "title": "🛡️ ExaU — 自然言語で立ち上がる自律型セキュリティエージェントチーム",
+   "summary": "サイバーセキュリティ企業Exaforceが発表した、マルチエージェント型SOCプラットフォームです。エンジニアが自然言語で説明するだけで、脅威ハンティングや権限監査、ファイアウォール対応などを担うエージェントチームを編成できます。単発のタスク自動化ではなく、エージェント同士が連携する「群れ」として防御する発想で、AIエージェントの次の段階としてSC26前後の話題を集めています。",
+   "url": "https://medium.com/@sohail8338/supercomputing-meets-verifiable-agency-inside-nvidia-sc26-rubin-hpc-nemotron-for-science-38bd058dba1f",
+   "date": "2026-11-24T10:16:36.214000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "AIコーディング",
+   "title": "Anthropic、コードの承認まで担う「Claude Ship」を発表",
+   "summary": "Anthropicが、コードレビュー・修正・承認をAIエージェントに任せる「Claude Ship」を発表（11月23日）。Code Review（GA）に加え、CI失敗やマージ競合を解消するPR Stewardと、リポジトリ内の自然言語ポリシーに従って定型変更を承認するClaude Approvalsの2つがベータ提供。Team/Enterprise向け、GitHub連携。",
+   "url": "https://theaiinsider.tech/2026/11/24/anthropics-claude-ship-hands-ai-agents-the-power-to-review-fix-and-approve-code-changes/",
+   "date": "2026-11-24T10:03:46.647000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "Steam",
+   "title": "Valve、Proton 11.0-3をリリース",
+   "summary": "ValveがWindowsゲームをLinux/Steam Deckで動かす互換レイヤー「Proton 11.0-3」をリリース。初版で生じた約20件の不具合を修正し、Experimentalにあった変更を安定化。新たに15タイトルがそのまま遊べるように。32ビットOpenXRの早期対応（オプトイン）も追加。",
+   "url": "https://www.linuxcompatible.org/story/proton-1103-release-valve-ships-major-windowstolinux-compatibility-update-for-steam-deck/",
+   "date": "2026-11-24T10:03:45.929000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "研究・論文",
+   "title": "AIアンサンブルが1万5千超の重力レンズ候補を発見",
+   "summary": "ESAのユークリッド望遠鏡データから、5つのニューラルネットワークによるAIアンサンブルが1万5千件以上の重力レンズ候補を発見。約6,800万個の銀河を調査した成果で、従来の収集量を10倍以上上回る。論文は11月23日にarXivへ投稿。",
+   "url": "https://www.bioscience.com.pk/en/subject/astronomy/euclid-data-release-1-dr1-learning-machine-learning-investigating-the-complementarity-and-biases-of-strong-gravitational-lens-finding-networks-on-euclid-data",
+   "date": "2026-11-24T10:03:45.741000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "組込",
+   "title": "QuintaurisとSiemens、RISC-V普及で協業",
+   "summary": "RISC-Vの普及を推進するQuintaurisがSiemensとの協業を発表（11月19日）。Siemensのデバッグ・トレース・リアルタイム監視ツール「Tessent Embedded Analytics」を、Quintaurisが構築するRISC-Vエコシステムに拡張し、車載・産業向けSoCの開発を加速する狙い。",
+   "url": "https://semiiphub.com/pulse/news/quintauris-siemens-risc-v",
+   "date": "2026-11-24T10:03:45.697000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "OSS",
+   "title": "Ladybirdブラウザ、初のアルファ版をリリース",
+   "summary": "Chromium・WebKit・Geckoを一切使わずゼロから開発されたオープンソースブラウザ「Ladybird」が、初のアルファ版を公開（11月23日）。SerenityOSの趣味プロジェクトから約7年、ついにダウンロード可能な形に。Web標準テストではSafari Technology Previewを上回る進捗も。まだアルファのためクラッシュあり。2027年にベータ、2028年に安定版の予定。",
+   "url": "https://www.linuxcompatible.org/story/ladybird-browser-ships-first-alpha-after-years-of-fromscratch-development/",
+   "date": "2026-11-24T10:03:45.634000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "生成AI",
+   "title": "XPENG、物理AIモデル「WorldGPT」を発表",
+   "summary": "小鵬汽車（XPENG）が、車・ドローン・ロボットアーム・ヒューマノイドなど6種類のマシンで学んだ知識を1つのモデルに統合した「WorldGPT」を発表。自動運転、ロボット操作、映像生成など12の公開ベンチマークで1位を獲得。クラウドの教師モデルで学び、各機器のオンデバイスモデルへ知識を転移する仕組み。",
+   "url": "https://www.xpeng.com/news/01a20bcf44b3a1e838d68a02a2110153",
+   "date": "2026-11-24T10:03:45.411000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "Steam",
+   "title": "Valve、Steamのビルド審査前に「5分間のプレイ」を必須化",
+   "summary": "ValveがSteamのリリースチェックリストを更新し、ビルドを審査に出す前にSteamクライアント経由で5分間プレイすることが必須になりました。背景は審査待ちの急増で、通常3〜5営業日だった審査が最大12営業日まで延びているとのこと。クラウドセーブや実績、スクリーンショットの確認項目も強化されています。",
+   "url": "https://tml.news/stories/valve-requires-five-minutes-playtime-steam-review/",
+   "date": "2026-11-24T04:05:24.014000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "研究・論文",
+   "title": "論文：再トークン化のわずかなズレが強化学習の更新を大きく動かす",
+   "summary": "arXivに11月20日投稿された論文（arXiv:2611.27083）が、RLVR（検証可能な報酬による強化学習）における再トークン化の影響を定量化。約25トークンに1個の分割が起きるだけで、学習の更新量が別バッチを使った場合の約半分（R=0.556）に相当するほど動くことが分かりました。推論モデルの学習パイプライン設計に直結する知見です。",
+   "url": "https://www.aimodeling.com/en/news/slug/lossless-retokenization-moves-rlvr-update",
+   "date": "2026-11-24T04:05:23.015000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "組込",
+   "title": "Infineon初のRISC-Vマイコン「AURIX RC1」、その狙いを担当VPが語る",
+   "summary": "Infineonが11月4日に発表した車載マイコンAURIX RC1は、同社初のRISC-Vベース製品。最大12コア、最大40MBの内蔵メモリ、エッジAI向け並列処理ユニットを備え、ソフトウェア定義車両やフィジカルAIを狙います。RISC-V Internationalのインタビューで、InfineonのThomas Schneid氏が背景と展望を解説しています。",
+   "url": "https://riscv.org/blog/v-questions-with-infineon-thomas-schneid/",
+   "date": "2026-11-24T04:05:22.307000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "データ圧縮",
+   "title": "Zstandard 1.6が登場、約1年半ぶりのメジャーリリース",
+   "summary": "広く使われる圧縮アルゴリズムZstandardの1.6.0が公開されました。64ビットARMでの解凍高速化やSVE2対応CPUでの圧縮高速化、RISC-VのRVV最適化に加え、マルチスレッド処理や32ビット環境の不具合修正など多数の修正を含みます。前回リリースは2025年2月のv1.5.7でした。",
+   "url": "https://www.phoronix.com/news/Zstandard-Zstd-1.6",
+   "date": "2026-11-24T04:05:21.596000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "OSS",
+   "title": "OpenAIとCisco、オープンソースのLinuxランタイム防御ツール「Shirudo」を公開",
+   "summary": "OpenAIとCiscoが11月23日、Linuxサーバー向けオープンソースツール「Shirudo」を発表。恒久パッチの適用・検証中も、稼働中のシステムを特定のエクスプロイトから守ります。IsovalentのランタイムセキュリティプロジェクトTetragonを土台に、eBPFでカーネルレベルの防御を実現しています。",
+   "url": "https://cybersecuritynews.com/openai-and-cisco-launch-shirudo/",
+   "date": "2026-11-24T04:05:19.816000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "Python",
+   "title": "Vercel SandboxのPython SDKが1.0に到達、TypeScript版と同等機能へ",
+   "summary": "Vercel SandboxのPython SDKが1.0を公開し、公開APIが安定化。TypeScript SDKとの機能パリティを達成し、AI生成コードを隔離サンドボックスで実行できます。自動クリーンアップ用のコンテキストマネージャーや、asyncio／Trio対応のAnyIOベース非同期サポートも追加されました。",
+   "url": "https://aibriefs.news/card/bc6c1141-3e6d-4f47-8248-65d4b7c7f295",
+   "date": "2026-11-24T04:05:19.205000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "AIコーディング",
+   "title": "Claude CodeとCodexがそろって更新、Codexの既定モデルがGPT-6.2 Solに",
+   "summary": "Claude Codeはv2.1.327〜330で定期タスクの実行期間が30日に延長され、チャート描画機能「easel」も追加。Codex CLIはv0.171.0でTUIワークスペースが既定で有効化され、カタログの既定モデルがGPT-6.2 Solになりました。Gemini CLIも承認まわりの修正を含むv0.69.0/v0.70.0を公開。",
+   "url": "https://buildjury.com/compare/claude-code-vs-openai-codex/",
+   "date": "2026-11-24T04:05:18.467000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "生成AI",
+   "title": "11月第4週の新モデルまとめ：Hunyuan StandardやLing-3.2-airが登場",
+   "summary": "11月23日にはTencentのHunyuan Standard（256k版も）とAnt GroupのLing-3.2-airが新たに登場。先週公開のGoogle「Gemini 4 Neon」はベンチマークでトップ10入りし、OpenAI「GPT-6.2 Astra」と並ぶ高評価に。1週間で9モデルがリリースされる活況ぶりです。",
+   "url": "https://www.benchleader.com/releases",
+   "date": "2026-11-24T04:05:17.746000+00:00"
+  },
   {
    "section": "興味",
    "theme": "AIエージェント",
@@ -336,150 +480,6 @@
    "summary": "AIコーディングエージェント「Devin」が、作ったアプリをそのままDevinのクラウド上にホスティングして公開できる新機能。ダッシュボードや社内ツールなど、Devinに頼んで作ったWebアプリをすぐ社内で使えるようにするもの。社内ツール開発を「作る→デプロイ→共有」までDevin任せにできる流れが注目されている。※現時点では順次ロールアウト中で、全アカウントで使えるわけではない。",
    "url": "https://casrai.org/news/devin-apps-private-hosted-internal-tools-launch-2026",
    "date": "2026-11-22T22:17:01.170000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "新技術",
-   "title": "日立、チップレット設計向けエージェンティックAIを発表（11/12）",
-   "summary": "半導体パッケージ（チップレット）設計の初期検討で、候補を90%以上削減できるAI技術。自然言語で目標や熱・コスト条件を伝えると、AIが設計ルールに落とし込み、重い物理シミュレーションの代わりに学習済みサロゲートモデルで高速に絞り込む仕組み。チップレット化で爆発的に増えた設計候補の探索がボトルネックになっていた問題への回答として注目されている。",
-   "url": "https://casrai.org/news/hitachi-agentic-ai-chiplet-package-design-technology-2026",
-   "date": "2026-11-22T22:17:01.155000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "データ圧縮",
-   "title": "JPEG XL、Chrome 155とFirefox 158でデフォルト有効に",
-   "summary": "画像フォーマットJPEG XLのデコードが、Chrome 155（10月6日）とFirefox 158（10月13日）でデフォルトで有効になった。Safari 17以降も対応済みで、主要3ブラウザエンジンすべてで表示可能に。JPEGより高画質・小容量で、ロスレス圧縮やHDR、透過にも対応する。サイト側の採用が進めばWeb画像の転送量削減につながる。",
-   "url": "https://www.dualmedia.fr/en/jpeg-xl-browser-compatibility/",
-   "date": "2026-11-22T22:05:07.054000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "研究・論文",
-   "title": "Google、自己改善の記憶「Self-Improvement Memory」を提案",
-   "summary": "Googleの研究チームが11月13日、AIエージェントの自己改善を蓄積する仕組み「Self-Improvement Memory」をarXivで発表した。ハーネス（周辺コードやプロンプト）の改善試行を記録し、別のベンチマークやモデルに引き継ぐことで、Terminal-Bench 4で平均2.36ポイントの改善を確認。モデルの重み自体は変えず、改善はハーネス側に留まる点に注意。",
-   "url": "https://traictory.com/news/2026-11-20-google-self-improvement-memory-harness",
-   "date": "2026-11-22T22:05:07.037000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "Steam",
-   "title": "Steamアワード2026のノミネート受付が本日開始、ブラックフライデーは11月26日から",
-   "summary": "Steamアワード2026のノミネート受付が本日11月23日に開幕。今年は10周年で新カテゴリーと新アートが用意される。また11月26日〜30日は「割引とイベント」ページがブラックフライデー仕様になり、パブリッシャー独自の割引が集まる。大型のウィンターセールは12月17日〜2027年1月4日。",
-   "url": "https://igamemag.com/steam-sale-dates/",
-   "date": "2026-11-22T22:05:07.009000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "Python",
-   "title": "Python→C++トランスパイラ「Shed Skin 1.0」リリース",
-   "summary": "制限付きPythonをC++に変換するトランスパイラ「Shed Skin」のバージョン1.0が11月22日にリリースされた。型推論エンジンの改善やUnicode対応、生成コードの高速化に加え、Python 3.15への対応も進んだ。Pythonの書き味のままネイティブ速度のバイナリを得られる、息の長いプロジェクトの節目。",
-   "url": "https://vuink.com/post/furq-fxva-d-doybtfcbg-d-dpbz/2026/11/shed-skin-restricted-python-to-c-d-dhtml",
-   "date": "2026-11-22T22:05:06.981000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "組込",
-   "title": "NXP、ロボット開発向け統合プラットフォームを発表",
-   "summary": "NXPが11月9日、フィジカルAI向けの統合ロボティクスプラットフォームを発表した。センシング、リアルタイム制御、AI処理、通信を「Neural Axis Architecture」でつなぐ分散基盤で、オープンソースのRobotics SDKとドローン向けリファレンスデザインを提供。ドローンの初期動作を30分で立ち上げられるとしている。まずドローン向けで、サービスロボットなどへの展開は2027年後半の予定。",
-   "url": "https://www.nxp.com/company/about-nxp/newsroom/NW-NXP-UNVEILS-ROBOTICS-PHYSICAL-AI",
-   "date": "2026-11-22T22:05:06.948000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "OSS",
-   "title": "Cloudflare、AIエージェント向けブラウザ「Kitesurf」をオープンソース化",
-   "summary": "Cloudflareが11月13日、AIエージェント向けの軽量ブラウザエンジン「Kitesurf」をApache 2.0で公開した。Chromiumを使わずWorkers上でHTML解析・CSS適用・JS実行・スクリーンショット描画を行い、Chrome DevTools Protocolにも対応。ローカル実行や自前デプロイが可能で、エージェントのWeb閲覧コスト削減が狙い。",
-   "url": "https://developers.cloudflare.com/changelog/post/2026-11-12-kitesurf-open-source/",
-   "date": "2026-11-22T22:05:06.934000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "生成AI",
-   "title": "OpenAI、音声エージェント向け「GPT-Live-1.1」をAPIで提供開始",
-   "summary": "OpenAIが11月20日、リアルタイム音声モデル「GPT-Live-1.1」をAPI経由で利用可能にしたと発表。音声アプリ開発者向けに、WebRTCセッションを低コストで維持できる新しいスタンバイ料金も導入された。常時待機型の音声エージェントが作りやすくなる。",
-   "url": "https://sxf.si/brief/",
-   "date": "2026-11-22T22:05:06.882000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "AIコーディング",
-   "title": "並列コーディングエージェント用ワークスペース「Parallel Code」が公開",
-   "summary": "複数のAIコーディングエージェントを並行実行できるオープンソースのデスクトップアプリ「Parallel Code」が11月21日に公開された。各タスクにGitのworktreeとブランチを自動で割り当て、Claude CodeやCodex CLI、Gemini CLIなどを並べて動かし、diffを比較して最良のものを採用できる。MITライセンスで無料。",
-   "url": "https://www.producthunt.com/products/parallel-code",
-   "date": "2026-11-22T22:05:06.812000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "生成AI",
-   "title": "OpenAI、GPT-6.2 Astra / Solをリリース（11/17）",
-   "summary": "OpenAIが最上位モデル「GPT-6.2 Astra」と日常向け「GPT-6.2 Sol」を同時リリース。AstraはGPT-6から入出力とも約20%値下げされ、APIとChatGPT Work・Codexで利用可能に。",
-   "url": "https://durabilitycurve.com/chart/",
-   "date": "2026-11-22T16:05:05.942000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "OSS",
-   "title": "オープンソースAIまとめ（11/20）：PAN 2、Inkling 2 Small、Nodなど",
-   "summary": "Sentient Foundationのまとめによると、物理シミュレーション対応の公開モデル「PAN 2」やThinking Machinesの「Inkling 2 Small」（Agent Arenaで米国の公開モデル1位）、Apache 2.0の個人エージェント「Nod」などが11月に登場。",
-   "url": "https://sentient.foundation/news/os-ai-field-notes-november-20-2026",
-   "date": "2026-11-22T16:05:05.923000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "Steam",
-   "title": "SteamOS 3.10.0 Preview：AMDでHDMI 2.1対応、カーネルはLinux 7.3へ",
-   "summary": "ValveがSteamOS 3.10.0 Previewを公開。AMDグラフィックスでHDMI 2.1（VRR/FRL/ALLM）に対応し、Steam Machineでは4K 120Hzが可能に。カーネルはLinux 7.3、デスクトップはPlasma 6.8.2へ更新。NVIDIAはメッシュシェーダーに対応。",
-   "url": "https://thegeek.games/2026/11/16/steam-deck-the-latest-steamos-update-also-brings-hdmi-2-1-support/",
-   "date": "2026-11-22T16:05:05.912000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "AIコーディング",
-   "title": "Microsoft、コーディング特化モデル「MAI Code 2」を発表（11/17）",
-   "summary": "MicrosoftがAIコーディングモデル「MAI Code 2」と高速版「MAI Code 2 Flash」を発表。複数ファイルにまたがる実装や複雑なバグ調査に対応し、GPT-6.1 Solの約98%の性能を約40%のコストで実現するとしている。GitHub Copilotで利用可能。",
-   "url": "https://gigazine.net/gsc_news/en/20261118-mai-code-2-flash/",
-   "date": "2026-11-22T16:05:05.907000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "データ圧縮",
-   "title": "Liquid AI、ストリーミング音声コーデック「LiquidCodec」を公開（11/12）",
-   "summary": "約7400万パラメータの音声コーデック。24kHz音声を12.5Hz・12トークン/フレーム（約1.65kbps）に圧縮し、単一CPUスレッドで約361倍速のエンコードをうたう。重みはHugging Faceで公開。",
-   "url": "https://kimiseek.app/news/liquid-ai-releases-liquidcodec-a-74m-streaming-speech-codec-that-encodes-ea1f8ba4",
-   "date": "2026-11-22T16:05:05.832000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "研究・論文",
-   "title": "論文：LLMの重みにCPUを直接コンパイルする手法（arXiv:2611.26450）",
-   "summary": "学習も外部ツールも使わず、決定論的な計算回路を事前学習済みLLMの重みに直接埋め込む「回路移植」手法を提案。正確な多桁演算を可能にしつつ、自然言語能力を維持するとしている。11/19公開。",
-   "url": "https://arxiv.org/abs/2611.26450v1",
-   "date": "2026-11-22T16:05:05.797000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "Python",
-   "title": "Anthropic Python SDK、11月にv2.4〜v2.9を連続リリース",
-   "summary": "AnthropicのPython SDKが11月にv2.4.0からv2.9まで立て続けに更新。管理API（分析・支出制限・RBAC）のGA化、型付きエラークラス、Claude Fable 5.2 / Mythos 5.2のモデルID追加など。",
-   "url": "https://jc-aiwiki.pages.dev/claude-ai/anthropic-sdk-releases-nov-2026",
-   "date": "2026-11-22T16:05:05.772000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "組込",
-   "title": "完全オープンの64ビットRISC-Vチップ設計「Fursoy Slice-1」公開",
-   "summary": "SystemVerilogで書かれたアウトオブオーダー実行のRISC-Vプロセッサ設計。Sv39仮想メモリを備え、Linux 6.6.50の起動を確認。Apache 2.0ライセンスでソース公開され、45nmプロセスで500MHz動作を見込む。",
-   "url": "https://www.hackster.io/news/fursoy-s-slice-1-is-a-fully-open-64-bit-risc-v-chip-design-capable-of-booting-linux-7d14b652061d",
-   "date": "2026-11-22T16:05:05.742000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "新技術",
-   "title": "🔭 暗号技術でパルサーを100万倍速く発見",
-   "summary": "NASAのフェルミ衛星の15年分の公開データから、格子暗号（ポスト量子暗号で使われる数学）を応用した新手法で、これまで見逃されていたガンマ線パルサー「PSR J1622-7204」を発見。従来の探索では数百年分のCPU時間が必要だった計算が、約10CPU時間に。11月19日にPhysical Review Lettersで発表され、暗号と天文学の異分野融合として話題に。",
-   "url": "https://casrai.org/news/fermi-gamma-ray-telescope-cryptography-algorithm-accelerates-pulsar-discovery-2026",
-   "date": "2026-11-22T10:16:30.892000+00:00"
   }
  ]
 }
