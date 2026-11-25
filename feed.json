@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-11-24T22:17:15.425000+00:00",
+ "generated_at": "2026-11-25T04:04:51.367000+00:00",
  "items": [
+  {
+   "section": "ニュース",
+   "theme": "組込",
+   "title": "electronica 2026に見る組込の潮流 — チップ単体からエコシステム競争へ",
+   "summary": "NordicのnRF71（Wi-Fi＋BLE＋Thread＋オンデバイスAIを1チップに）、ルネサスのRZ/T2N（ロボット制御を1チップに集約）、TriaのEmbedded Kit（Yoctoベースの長期保守付きモジュール）。各社ともシリコンだけでなく周辺の開発・運用環境まで含めた競争に移っている。",
+   "url": "https://embeddedcomputing.com/application/tech-news-roundup/beyond-silicon-embedded-products-and-trends-from-electronica-2026",
+   "date": "2026-11-25T04:04:51.367000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "データ圧縮",
+   "title": "Zstandard 1.6.0リリース — 1年半ぶりのメジャーアップデート",
+   "summary": "マルチスレッド圧縮・展開の不具合修正や、破損データの展開時に未初期化メモリが露出する問題の修正など多数の修正を含む（CVE-2026-124851として公開予定の報告あり）。AArch64での展開高速化、レガシーフォーマットのデフォルト無効化、古い実験的APIの削除も。",
+   "url": "https://rubric.hrih.si/editions/2026-11-24/1/",
+   "date": "2026-11-25T04:04:51.346000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "生成AI",
+   "title": "Z.ai、フラッグシップモデル「GLM-5.4」を発表",
+   "summary": "28層の重み共有レイヤーを1回の推論で2回実行する「Loop Transformer」アーキテクチャを採用。約7500億パラメータで2〜3兆パラメータ級の性能をうたう（同社発表）。まずはCoding Plan加入者向けに提供され、API公開と重みの公開は安全評価の後に予定。",
+   "url": "https://kimkj.com/en/ai-board-en/?mod=document&uid=23015",
+   "date": "2026-11-25T04:04:38.534000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "Python",
+   "title": "「Pysh」— PythonシェルとREPLを1つにした単一実行ファイル",
+   "summary": "1行ごとにPythonとして解釈できればPython、そうでなければシェルコマンドとして実行するツール。PythonのREPLとUnixシェルを行き来せずに使える。",
+   "url": "https://rubric.hrih.si/editions/2026-11-24/114/",
+   "date": "2026-11-25T04:04:38.427000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "AIコーディング",
+   "title": "Cognition、コーディングモデル「SWE-2.1」をリリース",
+   "summary": "Kimi K3を純粋な強化学習で追加学習したDevin向けモデル。Terminal-Bench 4.1で50.0（前モデルのSWE-2は24.2）と2倍以上に。Cerebras連携で10倍速の「Lightning」版と、防御的セキュリティ向けの「Cyber」版も同時提供。Devin Desktop／Cloud／CLIで利用可能。",
+   "url": "https://www.unite.ai/cognition-releases-swe-2-1-with-major-coding-and-cybersecurity-gains/",
+   "date": "2026-11-25T04:04:38.417000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "OSS",
+   "title": "Codex CLI 0.172.0リリース — スレッドリンクとBedrock対応",
+   "summary": "OpenAIが11月24日に公開。セッション間のスレッドリンクで過去の会話へ直接ジャンプできるように。AWS Bedrock Runtimeの選択にも対応し、タブ補完やMCPの遅延起動なども改善。CLI自体はApache-2.0のオープンソース。",
+   "url": "https://dirtystatic.com/articles/codex-0-172-adds-thread-links-bedrock-support/",
+   "date": "2026-11-25T04:04:38.376000+00:00"
+  },
   {
    "section": "興味",
    "theme": "新技術",
@@ -432,54 +480,6 @@
    "summary": "AmazonのLumberyardを前身とするオープンソースゲームエンジンO3DEの26.10が公開。エディタがQt 6.10.2ベースに移行し、Apple Siliconへのネイティブ対応が実験的に追加された。Windows / Linuxに加え、macOS ARM64でもネイティブビルドが可能に。",
    "url": "https://gamefromscratch.com/o3de-26-10-released/",
    "date": "2026-11-23T16:04:18.338000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "Python",
-   "title": "CPythonがRISC-Vを正式サポート、対応wheelが1,500超に",
-   "summary": "CPythonがRISC-Vをサポート対象プラットフォームとして認め、自動パッケージングの整備によりriscv64向けネイティブwheelが1,500パッケージを超えた。RISC-Vデバイス上でPythonパッケージをソースビルドなしで使える環境が大きく前進。",
-   "url": "https://tldr.tech/story/0af89733-cdcf-42ea-93be-6a4d00cb3e5d",
-   "date": "2026-11-23T16:04:18.297000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "AIコーディング",
-   "title": "Claude Code v2.1.328、サードパーティ経由でもauto modeが標準に",
-   "summary": "Claude Code v2.1.328で、Amazon BedrockやGoogle Cloud、Microsoft Foundry経由の利用でもauto modeが使えるようになり、モード未指定の対話はauto modeで始まるように。Codex v0.171.0はGPT-6.2 Solを既定モデルにし、TUIワークスペースを既定で有効化。Gemini CLI v0.69.0 / v0.70.0はシェルコマンド承認まわりの修正が中心。アップデート時は権限まわりの挙動変化に注意。",
-   "url": "http://practicaldev-herokuapp-com.freetls.fastly.net/aicoding-guide/this-week-in-claude-code-codex-and-gemini-cli-week-of-november-22-2026-1ofi",
-   "date": "2026-11-23T16:04:18.228000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "生成AI",
-   "title": "Z.ai「GLM-5.4」公開、ロボット向け基盤モデル「WALL-OSS-1.0」も登場",
-   "summary": "11月23日、Z.aiが推論の深さを高めた次世代モデル「GLM-5.4」をコーディングプラン向けに全面提供開始。視覚入力に対応し、週あたりの利用枠も50%増。同じ日、X Square Robotは視覚・言語・ロボット動作を統合学習するVLA基盤モデル「WALL-OSS-1.0」を発表し、312のタスクで55.1%のゼロショット成功率を報告。Ant Groupの医療AIモデル群「LingSante」も発表されるなど、1日に複数の大型リリースが重なった。",
-   "url": "https://www.artiverse.ca/four-ai-releases-show-where-model-depth-meets-real-world-use/",
-   "date": "2026-11-23T16:04:18.224000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "新サービス",
-   "title": "OpenAI、セキュリティ向けエージェント製品「Daybreak Defense Factory」と「Red Team」を発表（11/12）",
-   "summary": "Defense Factoryはコードをスキャンして脆弱性を見つけ、検証済みの修正パッチをプルリクエストとして提案するまで自動化する「防御ループ」。Red TeamはWebアプリへの攻撃経路を自律的に探索し、開示を検証して修正をテストするペネトレーションテスト・エージェント。 新しいのは、モデルそのものではなくエージェント＋スキル＋隔離環境を組み合わせた「ワークフロー製品」として売り出している点。NATOなどでの採用も報じられ、セキュリティ分野でエージェントの実用化が進んでいる。",
-   "url": "https://www.explainx.ai/blog/openai-daybreak-red-team-defense-factory-launch-november-2026",
-   "date": "2026-11-23T10:16:27.821000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "開発者ツール",
-   "title": "Alibaba、オープンソースのコードレビューエージェント「open-code-review」を公開",
-   "summary": "GitHubトレンドで急上昇中のコードレビュー用ツール。11月中旬の時点で5万スター超、1日で数百スターを獲得している。 AIエージェントによるコードレビューが「スキルを試す段階」から「運用に組み込む段階」へ移る流れの中で、中国の大手テック発の本格ツールとして注目されている。企業グレードのレビュー基準をうたう点も特徴。",
-   "url": "https://github.com/alibaba/open-code-review",
-   "date": "2026-11-23T10:16:27.585000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "AIエージェント",
-   "title": "Vercel、オープンソースのエージェントフレームワーク「eve」1.0を公開（11/17）",
-   "summary": "本番運用を想定したエージェント構築フレームワーク。Vercelによれば、1.0では1ターンあたりの中央値レイテンシが3.036秒から414ミリ秒に、50ターンのセッションコストが5.4セントから1.3セント（約76%減）に改善したとされる。 エージェントの競争軸が「モデルそのもの」から「レイテンシとコストの実用性」へ移っている象徴的なリリースとして話題に。",
-   "url": "https://vercel.com/blog/eve-is-now-generally-available",
-   "date": "2026-11-23T10:16:27.560000+00:00"
   }
  ]
 }
