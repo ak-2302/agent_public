@@ -1,6 +1,166 @@
 {
- "generated_at": "2026-11-25T22:17:26.893000+00:00",
+ "generated_at": "2026-11-26T10:17:00.577000+00:00",
  "items": [
+  {
+   "section": "興味",
+   "theme": "新技術",
+   "title": "AIエージェントが設計した汎用CPU",
+   "summary": "Architect Labsが発表した「Frostbite」は、コンパイラから命令セット、RTL、検証、最終レイアウトまでAIエージェント群が自律的に設計したCPU。1990年提唱の「インタラクションネット」という計算モデルを採用し、小さなタイルが並列に計算を進める設計で、従来コア比でワットあたり性能4.59倍・面積あたり性能8.77倍をうたっています（7nmでのプリシリコン評価）。 AIがチップ設計そのものを担う時代の象徴として、Hacker Newsでも大きな話題に。ただし実シリコンはまだなく、比較対象のコアも非公開という点には注意が必要です。",
+   "url": "https://www.notebookcheck.net/AMD-and-Intel-move-over-AI-designed-an-all-new-CPU-and-claims-it-is-4-6x-more-efficient.1455225.0.html",
+   "date": "2026-11-26T10:17:00.577000+00:00"
+  },
+  {
+   "section": "興味",
+   "theme": "開発者ツール",
+   "title": "オープンソースのAIエージェントフレームワークOpenClawの安定版がリリース",
+   "summary": "7,671件のPRを含む大型アップデートで、出典付きのDeep Researchがデフォルト有効に、オプトインの記憶機能「Knowledge」、ブラウザタブの引き継ぎ機能などが追加されました。 1周年と同時に公開された公式ベンチマーク「ShellBench」では、トップのエージェントでも日常タスクの約4割を失敗するという結果も出ており、エージェントの実力を測る物差しとしても注目されています。",
+   "url": "https://senx.ai/openclaw-news/2026-11-25-openclaw-news",
+   "date": "2026-11-26T10:16:59.505000+00:00"
+  },
+  {
+   "section": "興味",
+   "theme": "AIエージェント",
+   "title": "Anthropicが発表した、プルリクエストのレビュー・修正・承認までをAIエージェントが一貫して担当する仕組み（ベータ）",
+   "summary": "Code Reviewが指摘し、PR StewardがCI失敗やコンフリクトを修正、Claude Approvalsがリポジトリ内のポリシーファイルに基づいて定型変更を承認。Claude Codeの /ship コマンドからも利用できます。 AIがコードを書く速さに人間のレビューが追いつかない、というボトルネックへの回答として注目されています。Anthropic社内では導入後、PRのマージ数が2倍以上、差し戻しが4割減ったとのこと。",
+   "url": "https://claude.com/ja/resources/articles/introducing-claude-ship",
+   "date": "2026-11-26T10:16:59.418000+00:00"
+  },
+  {
+   "section": "興味",
+   "theme": "新サービス",
+   "title": "SnapLogicの11月リリースで登場した、企業内のMCPサーバーとツールを検索・共有できるカタログ（レジストリ）",
+   "summary": "MCPサーバーが乱立して「どのツールがあるか分からない」という問題を解消し、ガバナンスや監視と組み合わせてMCPゲートウェイとして機能します。SnapGPTやMCPサーバーの機能強化も同時リリース。 AIエージェントが社内のあちこちのツールを使い始めた今、「ツールの在庫管理」はどの企業でも課題になっており、MCPレジストリはその定番パターンになりつつあります。",
+   "url": "https://www.snaplogic.com/blog/november-2026-product-release",
+   "date": "2026-11-26T10:16:59.390000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "Steam",
+   "title": "**Steam Machine 512GBモデルが予約制から直接販売へ、2TBは受付停止**",
+   "summary": "Valveが11月19日の更新で、Steam Machine 512GBモデル（1,049ドル）の予約待ちを解消し、直接購入できるようにしました。一方で2TBモデルは需要が供給を上回り、新規のウェイティングリスト受付を停止。メモリ価格の高騰が今後の価格や供給に影響する可能性も示唆されています。",
+   "url": "https://thefreshwire.com/2026/11/22/valve-opens-1049-steam-machine-512gb-to-direct-sales-closes-2tb-waitlist-amid-memory-pressures/",
+   "date": "2026-11-26T10:04:52.446000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "研究・論文",
+   "title": "**GoogleのAIエージェント「Cogentic」、因数分解などの数学論文6本を投稿**",
+   "summary": "Google Researchのエージェント「Cogentic」（Gemini 4ベース）が、1本のプロンプトにつき1本ずつ、計6本の数学論文を生成・投稿しました。無条件のL[1/3]因数分解アルゴリズムや準多項式時間の離散対数など、暗号の核心に関わる内容を含みます。査読前でRSAを破るものではありませんが、長期的なエージェント研究の節目として注目されています。",
+   "url": "https://mer.vin/news/ai-news-thursday-26-november-2026/",
+   "date": "2026-11-26T10:04:51.651000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "組込",
+   "title": "**Weebit、ReRAMによるインメモリコンピューティングの研究プログラムを開始**",
+   "summary": "Weebit Nanoが、ReRAMクロスバーを使ったインメモリコンピューティング（IMC）の研究プログラム「Matrix IMC Research Program」を発表しました。AI推論でメモリとプロセッサ間のデータ移動が消費する電力を減らす狙いで、研究者向けに実チップ入りの評価キットを提供します。商用IP化は2〜3年後を見込んでいるとのことです。",
+   "url": "https://www.allaboutcircuits.com/news/weebit-accelerates-future-of-in-memory-compute-with-new-research-program/",
+   "date": "2026-11-26T10:04:51.005000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "データ圧縮",
+   "title": "**100KB制限下でJPEG・WebP・AVIF・JPEG XLを実測比較**",
+   "summary": "画像を100KBちょうどに収める場合、どの形式が画質を保てるかを実測した検証記事（11月25日計測）。写真ではJPEG XLがSSIM 0.980でトップ、接写ではAVIFが勝利するなど、画像によって勝者はバラバラ。先にリサイズしてから画質を上げる戦略が、画質を潰すより有効という結果も。スクリーンショットではJPEG XLのロスレスがPNGの半分以下のサイズになりました。",
+   "url": "https://medium.com/@cuelarkofficial/what-does-a-100-kb-cap-do-to-image-quality-we-tested-jpeg-webp-avif-and-jpeg-xl-nov-2026-927e054a723e",
+   "date": "2026-11-26T10:04:50.409000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "OSS",
+   "title": "**Pop!_OS 26.04 LTSが登場、COSMICの新機能をまとめて搭載**",
+   "summary": "System76がPop!_OS 26.04 LTSを11月24日にリリースしました。壁紙や配色などを一括で切り替えるテーマ機能「Constellations」、ペンタブレット対応、自動アップデート、刷新されたCOSMIC Storeなどが目玉。カーネルはLinux 7.2.15、COSMIC Epoch 1.12を搭載します。24.04からのアップグレードは12月に有効化される予定です。",
+   "url": "https://system76.com/blog/post/pop_os-26-04-lts-has-landed",
+   "date": "2026-11-26T10:04:49.824000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "Python",
+   "title": "**Sentry、Python SDK 3.0.0をリリース（破壊的変更あり）**",
+   "summary": "SentryがPython SDKのメジャーバージョン3.0.0を11月23日に公開しました。スパンのストリーミング配信、きめ細かいPII制御、AWS Lambda計測の更新などが含まれます。メジャーアップデートのため、アップグレード時は破壊的変更の確認が必要です。",
+   "url": "https://devnews.app/news/sentry-releases-python-sdk-3-0-0",
+   "date": "2026-11-26T10:04:48.987000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "AIコーディング",
+   "title": "**Claude Code v2.1.332、MCPサーバーからのSkill読み込みに対応**",
+   "summary": "AnthropicがClaude Code v2.1.332を11月25日にリリースしました。MCPサーバーが提供するスキルをベータ機能として読み込めるようになり、実行前フックによるインラインシェルコマンドの検証・拒否も強化されました。あわせてGitHub Copilotは、コードレビューの課金を12月30日から組織へデフォルト適用する方針も発表しています。",
+   "url": "https://daily-ai-dev.pages.dev/blog/2026-11-26/",
+   "date": "2026-11-26T10:04:48.149000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "生成AI",
+   "title": "**百度、ERNIE 5.5 Flash Previewの重みをApache 2.0で公開**",
+   "summary": "百度が大規模言語モデル「ERNIE 5.5 Flash Preview」の重みをHugging Faceで公開しました。総パラメータ2800億（トークンあたり140億が活性化）のMoEモデルで、コンテキスト長は最大100万トークン。FP8／FP4／BF16の3形式があり、SGLangやvLLMで動かせます。ただし開発途中のプレビュー版で、llama.cppなどへの対応はまだこれからとのことです。",
+   "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+   "date": "2026-11-26T10:04:47.492000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "Steam",
+   "title": "**Steamブラックフライデーセール、本日11月26日スタート**",
+   "summary": "Steamのブラックフライデーセールが本日11月26日（木）午前10時（太平洋時間）から11月30日まで開催されます。今回はストア全体の一律セールではなく、各スタジオが参加を決める形式で、割引は特別オファーのハブに集約されます。Steamアワード2026のノミネート受付も11月30日まで。",
+   "url": "https://playstationcouch.com/post.php?id=860",
+   "date": "2026-11-26T04:03:53.249000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "研究・論文",
+   "title": "**電子顕微鏡解析を自己改善するフレームワーク「PhyEvo-Mic-RSI」**",
+   "summary": "電子顕微鏡画像から原子レベルの欠陥や界面構造を読み解く作業を、物理法則と専門家の知見に基づき再帰的に自己改善するフレームワーク「PhyEvo-Mic-RSI」がarXivに登場しました（11月25日、arXiv:2611.32325）。一度きりの人手による修正を、検証可能な再利用できる能力へ変換する仕組みです。",
+   "url": "https://www.aitopic.com/a-recursive-self-improvement-framework-for-electron-microscopy-analysis.html",
+   "date": "2026-11-26T04:03:52.778000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "組込",
+   "title": "**SolidRunとMikroElektronika、150超のアドオンに対応するSBC「HummingBoard Gate」発表**",
+   "summary": "SolidRunとMikroElektronikaが11月25日、150種類以上の「click」アドオンボードに対応するシングルボードコンピュータ「HummingBoard Gate」を発表しました。MikroBUSソケットを統合した初のアプリケーションプロセッサボードで、センサーや通信モジュールなどを差し替えてIoT開発に使えます。",
+   "url": "https://can-newsletter.org/catalogue/do/printArticle/id/151001_sbc-with-over-150-add-ons_humming-board_solid-run/151001_sbc-with-over-150-add-ons_humming-board_solid-run.pdf",
+   "date": "2026-11-26T04:03:52.155000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "データ圧縮",
+   "title": "**Tor Project、Zstdの脆弱性CVE-2026-124851で更新＋Tor再起動を呼びかけ**",
+   "summary": "Tor Projectが11月25日、圧縮ライブラリZstdの情報漏えいの脆弱性（CVE-2026-124851）について、パッケージ更新だけでなくTorプロセスの再起動も必須だと呼びかけました。更新だけでは古いライブラリが使われ続けるためです。対象はZstd 1.5.1〜1.5.7で、修正版は1.6.0です。",
+   "url": "https://forum.torproject.org/t/tor-relays-cve-2026-124851-zstd-compression-information-leak-bug-upgrade-your-zstd-packages-and-restart-tor/22609",
+   "date": "2026-11-26T04:03:51.547000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "OSS",
+   "title": "**openSUSE Hack Week 26、注目プロジェクトをプレビュー**",
+   "summary": "openSUSEが11月25日、来週開催のHack Week 26に向けた注目プロジェクトを紹介しました。NetworkManagerへのWi-Fi WDS対応、クラウドAI向け通信をローカルで検査する軽量プロキシ「ai-guard」、btrfsスナップショットの検証機能、Rancherログ解析ツールなど5件が取り上げられています。",
+   "url": "https://news.opensuse.org/2026/11/25/hw-preview/",
+   "date": "2026-11-26T04:03:45.977000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "Python",
+   "title": "**Databricks Python SDK v0.171.0公開**",
+   "summary": "Databricks Python SDKのv0.171.0が11月25日に公開されました。Genie Migrateのワークスペースサービスが新たに追加され、メトリクスビューやエージェントスキル向けのMarketplaceアセットタイプにも対応。Genieエージェントの一部フィールド削除などの破壊的変更も含まれています。",
+   "url": "https://www.brickster.ai/releases/databricks/databricks-sdk-py/v0.171.0",
+   "date": "2026-11-26T04:03:45.286000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "AIコーディング",
+   "title": "**国産コーディングAI「CodeSense」、PC内LLM対応へ**",
+   "summary": "ナレッジセンスが国産コーディングAI「CodeSense」で、PC内で動くLLMを利用できる機能の提供予定を発表しました（11月26日）。コードを外部のAIに送らず、ローカル環境で作成・修正できるようになり、β版ユーザーを募集中です。社内コードを外部に出せない企業向けの選択肢が広がります。",
+   "url": "https://www.the-miyanichi.co.jp/pressrelease/prtimes/1289582.html",
+   "date": "2026-11-26T04:03:44.395000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "生成AI",
+   "title": "**バイドゥ、ERNIE 5.5 Flash Previewの重みをApache 2.0で公開**",
+   "summary": "バイドゥが11月23〜24日、2800億パラメータのMoEモデル「ERNIE 5.5 Flash Preview」の重みをHugging Faceで公開しました。トークンあたりの有効パラメータは140億、コンテキストは約100万トークン。FP8/FP4・FP8・BF16の3形式があり、商用利用も可能なApache 2.0ライセンスです。ただし現時点ではllama.cppやmlx-lmが未対応で、手元のMacなどではまだ動かせません。",
+   "url": "https://decrypt.co/384015/china-google-released-fast-new-ai-model-free-baidu-ernie",
+   "date": "2026-11-26T04:03:43.685000+00:00"
+  },
   {
    "section": "興味",
    "theme": "開発者ツール",
@@ -320,166 +480,6 @@
    "summary": "Amazon・Shopify・TikTok Shopなど8つの販売チャネルと連携し、フォロワー数やエンゲージメントではなく「過去の投稿が実際に生んだ売上」でインフルエンサーを評価・選定するエージェント。 なぜ話題か： インフルエンサーマーケティングの選定基準を「人気」から「売上貢献」へ変える試みで、2026年に相次ぐエージェント型マーケティングツールの中でも実売データ起点という切り口が注目されている。",
    "url": "https://www.storika.ai/guides/hyperstar-ai-agent-sales-based-creator-ranking-2026",
    "date": "2026-11-24T22:17:15.408000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "開発者ツール",
-   "title": "Google「Modern Web Guidance 1.0」（11/10）",
-   "summary": "AIコーディングエージェント向けのスキル集。モダンなHTML/CSS/JSのベストプラクティスとブラウザ対応データをエージェントに与え、古いパターンや不要なJSを書かせない。1.0では203のユースケースガイドと既存コードのレガシーパターンを検出する legacy-scan を追加。ChromeだけでなくEdge・Firefox・MDNも共同運営に。 なぜ話題か： Googleの評価ではエージェントのベストプラクティス遵守率が約50%→約90%に改善。GitHubトレンドでも急上昇し、Claude CodeやCodex、Copilot CLIなど主要エージェントに対応。",
-   "url": "https://github.com/GoogleChrome/modern-web-guidance",
-   "date": "2026-11-24T22:17:15.399000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "AIコーディング",
-   "title": "OpenAI、コーディングエージェント向けGit基盤「Pando」を公開",
-   "summary": "OpenAIが、複数のコーディングエージェントが同時に作業してもGitがボトルネックにならないよう設計した新バックエンド「Pando」を発表しました。ブランチ更新を独立に調整し、packfileを再利用することで、pushの中央値レイテンシを約80%削減。すでにOpenAIのモノレポ全体で稼働し、1日あたり約1ペタバイトのGitデータを処理しているとのことです。",
-   "url": "https://www.infoq.com/news/2026/11/openai-git-pando/",
-   "date": "2026-11-24T22:04:39.632000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "研究・論文",
-   "title": "論文：LLMが自分の重みを自分で編集して自己改善「Recursive Self-Editing」",
-   "summary": "LLMが勾配を使わず、低ランク編集を自らプログラムして自身の重みを繰り返し書き換え、数学的推論を改善する手法を提案した論文がarXivに公開されました（11月24日）。自己改善のループを重み編集そのものに持ち込むアプローチです。",
-   "url": "https://arxiv.org/abs/2611.29513",
-   "date": "2026-11-24T22:04:39.412000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "OSS",
-   "title": "Apache Fesodがトップレベルプロジェクトに昇格",
-   "summary": "Apache Software Foundationが11月24日、表計算ファイルの読み書きを行う高性能・省メモリなJavaライブラリ「Apache Fesod」がインキュベーターを卒業し、トップレベルプロジェクトになったと発表しました。",
-   "url": "https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-project-6",
-   "date": "2026-11-24T22:04:39.384000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "Python",
-   "title": "uv 0.13.10リリース（11月24日）",
-   "summary": "Astralの高速Pythonパッケージマネージャ「uv」が0.13.10をリリースしました。uv.lockの依存要件がロック済みバージョンと一致するかを検証する機能を追加したほか、管理対象のCPythonビルド（3.11.18〜3.15.2、3.16.0a2など）を更新。GraalPyも最新ビルドに追従しています。",
-   "url": "https://raw.githubusercontent.com/astral-sh/uv/main/CHANGELOG.md",
-   "date": "2026-11-24T22:04:39.376000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "組込",
-   "title": "MicrochipのAVR SDファミリ、家電向け安全規格IEC 60730 Class CのUL認証を取得",
-   "summary": "Microchip TechnologyのAVR SDファミリMCUが、家電などの自動電気制御向け安全規格UL/CSA/IEC 60730-2-5 Class CのULコンポーネント認証を取得しました。家電の安全制御システムの開発が簡素化されます。",
-   "url": "https://www.wnie.online/microchip-avr-sd-mcus-enable-simplified-development-of-iec-60730-class-c-compliant-systems/",
-   "date": "2026-11-24T22:04:39.349000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "生成AI",
-   "title": "Ant Group、軽量マルチモーダルモデル「Ling-3.2-air」をオープンソース化",
-   "summary": "Ant Groupが11月23日、マルチモーダルモデル「Ling-3.2-air」をMITライセンスで公開しました。テキスト・画像・動画に対応し、総パラメータ1240億・活性化55億と前世代の約22%に軽量化しながら、オフィス自動化ベンチマーク「AutomationBench-AA」で61%を記録（前世代は15.7%）。エージェント実行能力の大幅強化が目玉です。",
-   "url": "https://www.kucoin.com/news/flash/ant-group-open-sources-ling-3-2-air-automation-score-surges-to-61",
-   "date": "2026-11-24T22:04:39.348000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "Steam",
-   "title": "Steamコミュニティマーケットが刷新、再出品なしで価格変更が可能に",
-   "summary": "ValveがSteamコミュニティマーケットをアップデートしました。「人気アイテム」に代わり、プレイ中のゲームに合わせた「トレンドアイテム」表示や、複数ゲーム横断のウォッチリストを追加。出品価格を出品し直さずに直接変更できるようになり、モバイルアプリでの取引承認も画面内で完結します。",
-   "url": "https://en.gamespark.jp/article/2026/11/24/2624.html",
-   "date": "2026-11-24T22:04:39.295000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "Steam",
-   "title": "**「2026年Steamアワード」ノミネート受付を開始、10周年で「殿堂入り賞」を新設**",
-   "summary": "Valveが「2026年Steamアワード」のノミネート受付を開始（12月1日3:00まで）。全14部門で、「あと5分だけのつもりだったで賞」「言語に絶するで賞」に加え、仕事をテーマにしたタイトルを讃える「これが私の仕事と言ってもいいで賞」を新設。過去のゲームオブザイヤーから選ぶ「殿堂入り賞」も登場。投票は12月18日のウィンターセールにあわせて実施。",
-   "url": "https://www.4gamer.net/games/999/G999905/20261124035/",
-   "date": "2026-11-24T16:05:28.579000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "研究・論文",
-   "title": "**「学習させずに書き込む」— AIエージェントが言語モデルの重みに新能力を直接書き込む論文**",
-   "summary": "AIエージェントが、勾配学習なしにゲート付きアテンションヘッドやMLPニューロンを既存層へ追加し、事前学習済み言語モデルに新しい推論能力を書き込む手法を提案。タスク例の答えに重みを合わせることも、逆伝播も使わずに、選んだ推論タスクの性能を改善したと報告。",
-   "url": "https://arxiv.org/abs/2611.28483",
-   "date": "2026-11-24T16:05:21.226000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "組込",
-   "title": "**東芝、Arm Cortex-M4搭載スタンダードマイコン「TXZ+ M4Hグループ」の量産開始**",
-   "summary": "エアコン・洗濯機などの民生機器やFA機器の小規模システム制御向けマイコン。最大120MHz動作、電源電圧2.7〜5.5V、精度±1%の高速発振器を内蔵し外付け部品を削減。12ビットADC、UART/SPI/I2C/DMAに加え、ブラシレスDCモーター制御回路も内蔵。",
-   "url": "https://home.kingsoft.jp/news/pr/businesswire/20261007447987.html?from=recent_v2_pr",
-   "date": "2026-11-24T16:05:21.224000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "データ圧縮",
-   "title": "**Zstandard 1.6.0リリース、展開データ漏えいの脆弱性CVE-2026-124851を修正**",
-   "summary": "Meta開発の圧縮ライブラリZstandardが約1年9か月ぶりの新版。1.5.1〜1.5.7に存在した、展開時に過去のデータがバッファから漏れる情報漏えい脆弱性を修正。マルチスレッド圧縮でのデータ破損など複数の深刻な不具合も修正され、AArch64向け展開の高速化も。開発チームは1.6.0への更新を強く推奨。",
-   "url": "https://joho-todai.com/zstandard-1-6-0-cve-2026-124851-vulnerability-fix/",
-   "date": "2026-11-24T16:05:12.331000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "OSS",
-   "title": "**OpenAIとCisco、OSSのLinuxランタイム「Shirudo」を公開**",
-   "summary": "稼働中のLinuxを再起動なしで守るオープンソースのセキュリティ基盤。eBPFを使い、脆弱性を悪用する処理だけをブロックする一時的な防御プログラム「シールド」を導入し、パッチ適用までの隙間を埋める。AIエージェントが脆弱性調査からシールド作成・検証までを担う設計で、Java4Shellへの防御実証も。BSD 2-ClauseライセンスでGitHub公開。",
-   "url": "https://gigazine.net/news/20261124-openai-shirudo/",
-   "date": "2026-11-24T16:05:12.319000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "AIコーディング",
-   "title": "**Anthropic、PRのレビューから修正・承認まで自動化する「Claude Ship」ベータ版を発表**",
-   "summary": "GitHub上でプルリクエストのレビュー・修正・承認をAIが担う新機能。既存のCode Reviewに、指摘を自動修正するエージェント「PR Steward」と、チームのポリシーに基づき変更を承認する「Claude Approvals」を組み合わせた。Claude Codeには「/ship」コマンドも追加され、コード作成からPR作成・レビューまでを一気通貫で任せられる。Team/Enterpriseプランで利用可能。",
-   "url": "https://gigazine.net/news/20261124-claude-ship/",
-   "date": "2026-11-24T16:05:00.200000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "Python",
-   "title": "**Pydantic AIに履歴復元時のファイル化の脆弱性、CVE-2026-133505が公開**",
-   "summary": "会話履歴を保存・復元する際、ツール結果に含まれるファイル状のデータが本物のファイルとして再生成される欠陥。外部の第三者が書いたデータがツール結果に入る構成で影響があり、修正版は1.107.10と2.66.0（11月4日公開）。対象はpydantic-ai 1.50.0〜1.107.9および2.0.0b1〜2.65.0。",
-   "url": "https://debono.co.jp/media/pydantic-ai-file-rebuild-cve/",
-   "date": "2026-11-24T16:05:00.022000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "生成AI",
-   "title": "**Google、Mac版Geminiに「Computer Use」を導入**",
-   "summary": "GoogleがmacOS向けGeminiアプリに、画面上のアプリを自律操作して複数ステップの作業を代行する「Computer Use」機能を追加。自然言語の指示だけでメニュー操作やファイル整理、見積書からのデータ抽出、スライド作成などをバックグラウンドで実行できる。作業中はライブプレビューで進捗を確認でき、機密性の高い操作の前には確認を求める安全制御も備える。",
-   "url": "https://linux3.net/archives/3385",
-   "date": "2026-11-24T16:04:45.302000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "新サービス",
-   "title": "🗂️ ZARMS — Google WorkspaceネイティブのAIプロジェクト管理ツール",
-   "summary": "Xgeneが11月11日にベータ公開した、Google Workspace上で動くAIプロジェクト管理ツールです。タスクの担当者・期限・進捗・議論・成果物を「カード」に集約し、AIが遅延・停滞しているカードを見つけて次のアクションを提案します。料金は人数課金なしのチーム定額。API・MCP連携により、ClaudeやChatGPTなど外部のAIエージェントからも操作できます。日本で広く使われているWorkspace環境にそのまま入る設計で、導入ハードルの低さが話題です。",
-   "url": "https://www.xgene.co.jp/en/news/2026111101-launched",
-   "date": "2026-11-24T10:16:36.380000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "新技術",
-   "title": "🌌 天の川銀河を5兆粒子でシミュレーション — 過去最高解像度",
-   "summary": "東京大学を中心とする国際チームが、天の川銀河を最大5兆個の粒子で再現するシミュレーションに成功し、国際スーパーコンピューティング会議SC26で発表しました。従来は10億粒子程度が限界でしたが、AIサロゲートモデルで超新星爆発後のガス応答を近似することで、米Frontier・Auroraと独JUPITER Boosterという3つの異なるエクサスケール機で動作。ピークで毎秒1,440億粒子を処理し、ゴードン・ベル賞の最終候補にも選ばれています。銀河形成の謎に迫る、計算科学の大前進です。",
-   "url": "https://japan.co.jp/e/reports/japan-milky-way-galaxy-supercomputer-simulation-2026.html",
-   "date": "2026-11-24T10:16:36.367000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "開発者ツール",
-   "title": "🐳 Arcane — 誰でも使えるモダンなDocker管理ツール",
-   "summary": "Go製のオープンソースツールで、GitHubで約8,900スターを集め11月のトレンドに急浮上しています。コンテナ管理をDevOpsの専門家だけでなく誰でも扱える体験にすることが狙いで、Dockerの操作を分かりやすいUIにまとめています。開発環境の管理ハードルを下げる「インフラの民主化」を象徴するツールとして注目されています。",
-   "url": "https://github.com/getarcaneapp/arcane",
-   "date": "2026-11-24T10:16:36.352000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "AIエージェント",
-   "title": "🛡️ ExaU — 自然言語で立ち上がる自律型セキュリティエージェントチーム",
-   "summary": "サイバーセキュリティ企業Exaforceが発表した、マルチエージェント型SOCプラットフォームです。エンジニアが自然言語で説明するだけで、脅威ハンティングや権限監査、ファイアウォール対応などを担うエージェントチームを編成できます。単発のタスク自動化ではなく、エージェント同士が連携する「群れ」として防御する発想で、AIエージェントの次の段階としてSC26前後の話題を集めています。",
-   "url": "https://medium.com/@sohail8338/supercomputing-meets-verifiable-agency-inside-nvidia-sc26-rubin-hpc-nemotron-for-science-38bd058dba1f",
-   "date": "2026-11-24T10:16:36.214000+00:00"
   }
  ]
 }
