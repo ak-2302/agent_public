@@ -1,6 +1,70 @@
 {
- "generated_at": "2026-11-26T10:17:00.577000+00:00",
+ "generated_at": "2026-11-26T16:07:11.864000+00:00",
  "items": [
+  {
+   "section": "ニュース",
+   "theme": "Steam",
+   "title": "**SteamOS 3.9.7 BetaとSteam Frame向け0.5.11 Betaが配信**",
+   "summary": "11月26日配信。Steam Deck／Steam Machine向け3.9.7 Betaでは、特定条件下で白い矩形が表示される描画の不具合と、3.9系で発生していたバックライト調整の不具合を修正。Steam Frame向け0.5.11 Betaでは、カメラパススルー／ルームビューでPCストリーミング設定の配置を変更するなどVR周りの改善。いずれもBetaチャンネル向け。",
+   "url": "https://www.gamingonlinux.com/2026/11/steamos-3-9-7-beta-and-steamos-0-5-11-beta-for-steam-frame-released/",
+   "date": "2026-11-26T16:07:11.864000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "研究・論文",
+   "title": "**論文「The Symmetry Budget」: 対称性をどれだけ課すかはデータセットが決める**",
+   "summary": "11月26日にarXiv公開。畳み込み＝並進対称性、Attention＝置換対称性など、アーキテクチャは本質的に対称性の仮定だという視点から、循環群上の線形写像という厳密に解けるモデルで最適な対称性の量を解析。汎用的な対称性のズレでは中間のアーキテクチャは最適にならず全か無かの選択になること、構造化されたズレでは中間が復活することを閉形式で示した。検証は60/60セルなどで理論と一致。※未査読のプレプリント",
+   "url": "https://arxiv.org/abs/2611.33169",
+   "date": "2026-11-26T16:07:11.108000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "組込",
+   "title": "**Espressif「ESP-Mosaico Vision Combo Kit」、予約受付を開始**",
+   "summary": "磁石で連結できるモジュール式の組込み開発キット。2.16インチ480×480のAMOLEDタッチ画面を持つコアユニットに、ESP32-S31NRV16（デュアルコア32bit RISC-V、最大320MHz、16MB PSRAM）を搭載。カメラやインタラクション用モジュールも同梱し、タッチ・音・動きのセンシングを小型デバイスに組み込める。価格は59ドルで、予約は15日程度のリードタイム。",
+   "url": "https://www.geeky-gadgets.com/esp-module-vision-kit-1-2-specs/",
+   "date": "2026-11-26T16:07:10.312000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "データ圧縮",
+   "title": "**Firefox 161、Compression Dictionary Transportに対応**",
+   "summary": "11月24日リリースのFirefox 161で、以前取得したリソースを辞書として再利用し差分だけを送る圧縮転送に対応。初回レスポンスが Use-As-Dictionary で辞書化を宣言し、次回以降は dcb（Brotli）/dcz（Zstandard）で差分を圧縮して取得する。繰り返しダウンロードが多いサイトの転送量削減が見込めるが、MDNでは実験的機能扱いで対応はまだ限定的。",
+   "url": "https://csswizardry.com/2026/11/web-perf-wednesday-019-firefox-ships-dictionary-compression/",
+   "date": "2026-11-26T16:07:08.964000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "OSS",
+   "title": "**ByteDance Seed、非同期RL学習フレームワーク「Laminar」をOSS公開**",
+   "summary": "Apache 2.0ライセンスでGitHub（verl-project）に公開された、強化学習によるポストトレーニングを非同期化するフレームワーク。EuroSys 2026採択論文の実装で、SWE-bench Verifiedで46.6%から52.2%への改善を報告（プロジェクト発表の数値）。同じ週にはHugging FaceのQwen3.8向けharness adaptersや、NVIDIAのNemotron 3.5 Parse用データセットなども公開された。",
+   "url": "https://thelatentdaily.com/articles/open-source-ai-week-laminar-harness-adapters/",
+   "date": "2026-11-26T16:07:08.252000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "Python",
+   "title": "**Pydantic、ターミナル用コーディングエージェント「Pax」を公開**",
+   "summary": "11月26日発表。Pydantic AI Harness SDKを基盤にしたターミナル型コーディングエージェントで、既存のPydantic AIエージェントを --agent で指定して動かせるほか、内蔵のCoderエージェントも利用可能。プラグインのオン・オフ、サンドボックス、MCP連携、Logfireトレーシングに対応し、uvx pydantic-ai-pax で試せる。Harness 1.0は約1か月後の公開を目指し、ベータ版のフィードバックを募集中。",
+   "url": "https://dataphoenix.info/news/pydantic-pax-harness-launch",
+   "date": "2026-11-26T16:07:07.592000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "AIコーディング",
+   "title": "**Claude Code 2.1.332、MCPサーバーのスキルに対応**",
+   "summary": "11月25日リリース。MCPサーバーが提供するスキルが「/」メニューに server:skill として表示されるベータ機能を追加。11月の更新では実験的なCode Mode、バグに焦点を当てた /code-review、30日まで延長されたループ・定期タスク、ターミナル内でのチャート描画なども登場。クラウド基盤では sonnet エイリアスが Sonnet 5.5 を指すようになった。",
+   "url": "https://medium.com/@rchaitanya/whats-new-in-claude-code-7-features-worth-trying-this-week-november-2026-24ac05f07104",
+   "date": "2026-11-26T16:07:07.092000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "生成AI",
+   "title": "**Sakana AI、推論モデル「Namazu Small」を発表**",
+   "summary": "NVIDIAのNemotron 3 Nanoをベースに、継続事前学習とポストトレーニングを自社で実施した30Bパラメータの推論モデル。Sakana AIによると、25ベンチマークの平均スコアで約4倍の規模のNemotron 3 Superを上回り、BrowseCompでは73.5（Superは36.1）を記録。会話やWeb調査、長文の読解と根拠に基づく回答が想定用途で、オンプレミス版の詳細は12月前半〜半ばに公開予定。※ベンチマーク数値はSakana AI発表のもの",
+   "url": "https://alphasignal.ai/news/sakana-ai-s-30b-namazu-small-beats-nvidia-s-120b-model-on-25-benchmarks",
+   "date": "2026-11-26T16:07:06.308000+00:00"
+  },
   {
    "section": "興味",
    "theme": "新技術",
@@ -416,70 +480,6 @@
    "summary": "NordicのnRF71（Wi-Fi＋BLE＋Thread＋オンデバイスAIを1チップに）、ルネサスのRZ/T2N（ロボット制御を1チップに集約）、TriaのEmbedded Kit（Yoctoベースの長期保守付きモジュール）。各社ともシリコンだけでなく周辺の開発・運用環境まで含めた競争に移っている。",
    "url": "https://embeddedcomputing.com/application/tech-news-roundup/beyond-silicon-embedded-products-and-trends-from-electronica-2026",
    "date": "2026-11-25T04:04:51.367000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "データ圧縮",
-   "title": "Zstandard 1.6.0リリース — 1年半ぶりのメジャーアップデート",
-   "summary": "マルチスレッド圧縮・展開の不具合修正や、破損データの展開時に未初期化メモリが露出する問題の修正など多数の修正を含む（CVE-2026-124851として公開予定の報告あり）。AArch64での展開高速化、レガシーフォーマットのデフォルト無効化、古い実験的APIの削除も。",
-   "url": "https://rubric.hrih.si/editions/2026-11-24/1/",
-   "date": "2026-11-25T04:04:51.346000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "生成AI",
-   "title": "Z.ai、フラッグシップモデル「GLM-5.4」を発表",
-   "summary": "28層の重み共有レイヤーを1回の推論で2回実行する「Loop Transformer」アーキテクチャを採用。約7500億パラメータで2〜3兆パラメータ級の性能をうたう（同社発表）。まずはCoding Plan加入者向けに提供され、API公開と重みの公開は安全評価の後に予定。",
-   "url": "https://kimkj.com/en/ai-board-en/?mod=document&uid=23015",
-   "date": "2026-11-25T04:04:38.534000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "Python",
-   "title": "「Pysh」— PythonシェルとREPLを1つにした単一実行ファイル",
-   "summary": "1行ごとにPythonとして解釈できればPython、そうでなければシェルコマンドとして実行するツール。PythonのREPLとUnixシェルを行き来せずに使える。",
-   "url": "https://rubric.hrih.si/editions/2026-11-24/114/",
-   "date": "2026-11-25T04:04:38.427000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "AIコーディング",
-   "title": "Cognition、コーディングモデル「SWE-2.1」をリリース",
-   "summary": "Kimi K3を純粋な強化学習で追加学習したDevin向けモデル。Terminal-Bench 4.1で50.0（前モデルのSWE-2は24.2）と2倍以上に。Cerebras連携で10倍速の「Lightning」版と、防御的セキュリティ向けの「Cyber」版も同時提供。Devin Desktop／Cloud／CLIで利用可能。",
-   "url": "https://www.unite.ai/cognition-releases-swe-2-1-with-major-coding-and-cybersecurity-gains/",
-   "date": "2026-11-25T04:04:38.417000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "OSS",
-   "title": "Codex CLI 0.172.0リリース — スレッドリンクとBedrock対応",
-   "summary": "OpenAIが11月24日に公開。セッション間のスレッドリンクで過去の会話へ直接ジャンプできるように。AWS Bedrock Runtimeの選択にも対応し、タブ補完やMCPの遅延起動なども改善。CLI自体はApache-2.0のオープンソース。",
-   "url": "https://dirtystatic.com/articles/codex-0-172-adds-thread-links-bedrock-support/",
-   "date": "2026-11-25T04:04:38.376000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "新技術",
-   "title": "Thinking Machines Lab「Inkling 2 Mini」（11/20発表）",
-   "summary": "ミラ・ムラティ率いるThinking Machines Labが公開したオープンウェイトのマルチモーダルモデル。26.4Bパラメータながら中間層を3回ループさせる「ループド・トランスフォーマー」構造で、約20GBに収まり32GB以上のMacBookやDGX Sparkでオフライン動作。コーディング系ベンチマークでは同規模のオープンウェイトモデルでトップ級のスコアを記録。 なぜ話題か： フロンティア級の性能をクラウドではなく「手元のラップトップ」で動かせる、ローカルAIの流れを象徴するモデル。公開直後にHugging Faceのトレンド1位になり、Apache 2.0ライセンスでOllamaにも",
-   "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-   "date": "2026-11-24T22:17:15.425000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "新サービス",
-   "title": "Anthropic、Claudeに「Sheets」「Whiteboards」「Data」を追加（11/10）",
-   "summary": "Claudeがチャットだけでなく表計算・ホワイトボード・ダッシュボードまで扱えるように。Sheetsはプロンプトからタブ・数式・書式付きの表を作成、Whiteboardsはブレストをタイムラインやタスクに整理、DataはSnowflakeなど社内データとつないでダッシュボードやデータストーリーを生成（GA化）。 なぜ話題か： Microsoft 365やChatGPTの職場向け機能群への本格対抗で、Claudeが「AIチャット」から「仕事の場そのもの」へ踏み込んだ転換点として注目されている。有料プランで利用可能。",
-   "url": "https://casrai.org/news/anthropic-claude-whiteboards-sheets-data-launch-2026",
-   "date": "2026-11-24T22:17:15.413000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "AIエージェント",
-   "title": "Hyperstar、売上実績でクリエイターをランク付けするAIエージェントを公開（11/7）",
-   "summary": "Amazon・Shopify・TikTok Shopなど8つの販売チャネルと連携し、フォロワー数やエンゲージメントではなく「過去の投稿が実際に生んだ売上」でインフルエンサーを評価・選定するエージェント。 なぜ話題か： インフルエンサーマーケティングの選定基準を「人気」から「売上貢献」へ変える試みで、2026年に相次ぐエージェント型マーケティングツールの中でも実売データ起点という切り口が注目されている。",
-   "url": "https://www.storika.ai/guides/hyperstar-ai-agent-sales-based-creator-ranking-2026",
-   "date": "2026-11-24T22:17:15.408000+00:00"
   }
  ]
 }
