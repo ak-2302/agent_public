@@ -1,6 +1,102 @@
 {
- "generated_at": "2026-11-25T16:04:45.721000+00:00",
+ "generated_at": "2026-11-25T22:17:26.893000+00:00",
  "items": [
+  {
+   "section": "興味",
+   "theme": "開発者ツール",
+   "title": "NVIDIA SkillEvaluator — エージェントスキルをCIで検査する",
+   "summary": "Claude CodeやCodexなどで使う「エージェントスキル」を、アプリのコードと同じようにCIでゲートできるオープンソースのCLI/CIフレームワーク。品質・セキュリティ・互換性を3段階で評価し、SkillSpectorやGitleaks、Bandit、Semgrepなどを組み合わせて500以上の静的ルールでチェックする。`skillevaluator ci init` でGitHub/GitLab用のワークフローを自動生成できる。 11/19にGitHubトレンド入り。スキルをあちこちから拾ってくる時代の「サプライチェーン安全装置」として注目されている。",
+   "url": "https://www.agentbeam.com/blog/nvidia-skillevaluator-trending-agent-skill-ci-gates-november-2026",
+   "date": "2026-11-25T22:17:26.893000+00:00"
+  },
+  {
+   "section": "興味",
+   "theme": "新サービス",
+   "title": "Latch.ai — 経理の定型作業を「一度やって見せるだけ」で自動化",
+   "summary": "プロンプトもワークフロー設計も不要。デスクトップアプリで画面を録画しながらいつも通り作業して解説すると、その手順を「サイドキック」として学習し、以後は同じツールの中で自動で繰り返してくれる。11/10のProduct Huntで話題に。 AIエージェント全盛の中で、「教えるのは一度だけ、あとは現場のツールで動く」という手軽さが、経理担当者に刺さっている。会計ソフトの画面操作を丸ごと引き継げる点が、従来のRPAやチャット型AIとの違い。",
+   "url": "https://openaimaster.ai/7-new-ai-tools-10-november-2026/",
+   "date": "2026-11-25T22:17:24.626000+00:00"
+  },
+  {
+   "section": "興味",
+   "theme": "新技術",
+   "title": "曲げるほど強くなる、砂糖由来のハイドロゲル",
+   "summary": "米ワシントン大学セントルイス校のチームが、曲げたり伸ばしたりするほど強くなる自己強化型ハイドロゲルを開発し、Nature Materials に発表（11/21）。シクロデキストリンという糖由来の環状分子が、負荷のかかった場所で再配列して結晶化し、組織が整っていく仕組み。1万回の屈曲テストでも性能を維持した。 3Dプリンタ対応で生分解性もあり、柔らかいロボットや関節・義肢、ウェアラブルなど、「使うほど劣化する」という素材の常識を覆すものとして注目されている。",
+   "url": "https://phys.org/news/2026-11-sugar-based-hydrogel.html",
+   "date": "2026-11-25T22:17:24.454000+00:00"
+  },
+  {
+   "section": "興味",
+   "theme": "AIエージェント",
+   "title": "Anthropic「Claude Ship」— PRのレビュー・修正・承認をエージェントが自動化",
+   "summary": "Anthropicが11/23〜24に発表した、GitHubのプルリクエストをAIエージェントが自動で回す新サービス。Code Review（GA）、PR Steward（マージ競合やCI失敗の解消）、Claude Approvals（チームのポリシーに基づく承認）の3つのエージェントで構成される。 AIが書くコード量の急増でレビューがボトルネックになっている現状への回答。承認はベータ期間中は監視モード推奨など、人間の統制を残す設計が特徴。Claude Team / Enterprise向けに展開中。",
+   "url": "https://theworldofai.org/ai-news/845e48dd/",
+   "date": "2026-11-25T22:17:24.406000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "Steam",
+   "title": "**SteamOS 3.9.7ベータ、Deckのバックライト不具合と白い矩形の描画バグを修正**",
+   "summary": "ValveがSteamOS 3.9.7ベータを配信開始。SteamOS 3.9で生じたバックライト調整の不具合と、まれに画面へ白い矩形が出る描画バグを修正するほか、タイムゾーン定義の更新や安定性・セキュリティの更新を含みます。Beta/Previewチャンネル向けの配信です。",
+   "url": "https://gameloop.gg/articles/steamos-3-9-7-beta-fixes-deck-backlight-rendering-frame-timing-steam/",
+   "date": "2026-11-25T22:06:08.338000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "研究・論文",
+   "title": "**3Dプリント製ロボットハンド、複雑さを減らして器用さを維持**",
+   "summary": "3Dプリントで作れる人型ロボットハンド「PHD-Hand」がarXivで発表されました。リンケージ駆動の3自由度指により、市販の高価格ハンドに比べて安価で信頼性が高く、機能は損なわない設計。ブラウザ操作での制御や、LLMによる音声・文字指示への対応も見据えています。",
+   "url": "https://techxplore.com/news/2026-11-3d-robotic-complexity-sacrificing-dexterity.html",
+   "date": "2026-11-25T22:06:07.564000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "組込",
+   "title": "**ESP32を9.4KBのRAMで遠隔アクセス可能にする「Pinscope」**",
+   "summary": "ESP32などのマイコンに搭載されたWebサーバーへ、ポート開放やVPNなしでHTTPS経由でアクセスできるリモートアクセスサービス「Pinscope」が紹介されました。ログやクラッシュ解析、段階的OTAも備え、ESP32-S2での接続時RAM使用量は9.4KBとされています。ZephyrやPico 2 Wなどはベータ対応。",
+   "url": "http://pinoutfeed.com/article/pinscope-esp32-zephyr-pico-2-w-remote-access-ota-noise-protocol-november-2026",
+   "date": "2026-11-25T22:06:06.938000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "データ圧縮",
+   "title": "**zstdのCVE-2026-124851を深掘り——使い回した解凍コンテキストから古いバイトが漏れる仕組み**",
+   "summary": "zstd 1.5.1〜1.5.7のデコーダにあった情報漏洩の脆弱性（CVE-2026-124851）について、再利用されたストリーミング解凍コンテキストから過去の解凍データや未初期化メモリが紛れ込む仕組みを解説した記事。修正済みの1.6.0への更新が推奨されています。",
+   "url": "https://kdpisda.in/zstd-cve-2026-124851-reused-dctx-stale-literals/",
+   "date": "2026-11-25T22:06:05.349000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "OSS",
+   "title": "**Cortex v2.0.1、セキュリティ強化とAIエージェント向けツールチェーンを改善**",
+   "summary": "オープンソースのAI開発者ツールCortexがv2.0.1をリリース。デモ用のトークンや鍵などの機密情報を思わせる値をリポジトリから除去し、スキル導入まわりの堅牢化やJSON出力の拡充など、セキュリティと信頼性中心のメンテナンス更新です。",
+   "url": "https://undercodenews.com/cortex-v201-just-made-its-security-hardening-and-ai-agent-toolchain-more-consistent-video/",
+   "date": "2026-11-25T22:06:04.493000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "Python",
+   "title": "**GitHubで注目のPythonプロジェクト（11月25日版）**",
+   "summary": "RAGベースのエンタープライズ向けエージェント構築プラットフォーム「MaxKB」や、Claude Codeと連携する学術研究アシスタント「claude-scholar」、深掘り調査エージェント「hyperresearch」など、Python製のAIエージェント系プロジェクトがGitHubで注目を集めています。",
+   "url": "https://www.alextech.ai/en/news/github-digest-25-november-2026/",
+   "date": "2026-11-25T22:06:03.842000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "AIコーディング",
+   "title": "**OpenAI、エージェント時代のGitバックエンド「Pando」を公開**",
+   "summary": "OpenAIが自社モノレポ全体で使っているGitバックエンド「Pando」の詳細を公開。ブランチ更新を独立に調整し、fetch間でpackfileを再利用することで、pushの中央値レイテンシを約80%削減。1日あたり約1ペタバイトのGitデータ処理を支え、Codex主導の開発が背景にあります。",
+   "url": "https://ai.dosa.dev/blog/today-in-ai-2026-11-25",
+   "date": "2026-11-25T22:06:03.182000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "生成AI",
+   "title": "**AnthropicのMCP、月間ダウンロード7億回超え——エージェント基盤の標準に**",
+   "summary": "AnthropicのModel Context Protocol（MCP）の開発者ツールが月間7億ダウンロードを突破。Skills over MCPがパブリックベータ、TasksとElicitationが正式提供開始となり、エージェントがより自律的に動くための基盤整備が進んでいます。",
+   "url": "https://www.thecodew.com/2026/11/ai-watch-november-25.html",
+   "date": "2026-11-25T22:05:27.800000+00:00"
+  },
   {
    "section": "ニュース",
    "theme": "Steam",
@@ -384,102 +480,6 @@
    "summary": "サイバーセキュリティ企業Exaforceが発表した、マルチエージェント型SOCプラットフォームです。エンジニアが自然言語で説明するだけで、脅威ハンティングや権限監査、ファイアウォール対応などを担うエージェントチームを編成できます。単発のタスク自動化ではなく、エージェント同士が連携する「群れ」として防御する発想で、AIエージェントの次の段階としてSC26前後の話題を集めています。",
    "url": "https://medium.com/@sohail8338/supercomputing-meets-verifiable-agency-inside-nvidia-sc26-rubin-hpc-nemotron-for-science-38bd058dba1f",
    "date": "2026-11-24T10:16:36.214000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "AIコーディング",
-   "title": "Anthropic、コードの承認まで担う「Claude Ship」を発表",
-   "summary": "Anthropicが、コードレビュー・修正・承認をAIエージェントに任せる「Claude Ship」を発表（11月23日）。Code Review（GA）に加え、CI失敗やマージ競合を解消するPR Stewardと、リポジトリ内の自然言語ポリシーに従って定型変更を承認するClaude Approvalsの2つがベータ提供。Team/Enterprise向け、GitHub連携。",
-   "url": "https://theaiinsider.tech/2026/11/24/anthropics-claude-ship-hands-ai-agents-the-power-to-review-fix-and-approve-code-changes/",
-   "date": "2026-11-24T10:03:46.647000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "Steam",
-   "title": "Valve、Proton 11.0-3をリリース",
-   "summary": "ValveがWindowsゲームをLinux/Steam Deckで動かす互換レイヤー「Proton 11.0-3」をリリース。初版で生じた約20件の不具合を修正し、Experimentalにあった変更を安定化。新たに15タイトルがそのまま遊べるように。32ビットOpenXRの早期対応（オプトイン）も追加。",
-   "url": "https://www.linuxcompatible.org/story/proton-1103-release-valve-ships-major-windowstolinux-compatibility-update-for-steam-deck/",
-   "date": "2026-11-24T10:03:45.929000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "研究・論文",
-   "title": "AIアンサンブルが1万5千超の重力レンズ候補を発見",
-   "summary": "ESAのユークリッド望遠鏡データから、5つのニューラルネットワークによるAIアンサンブルが1万5千件以上の重力レンズ候補を発見。約6,800万個の銀河を調査した成果で、従来の収集量を10倍以上上回る。論文は11月23日にarXivへ投稿。",
-   "url": "https://www.bioscience.com.pk/en/subject/astronomy/euclid-data-release-1-dr1-learning-machine-learning-investigating-the-complementarity-and-biases-of-strong-gravitational-lens-finding-networks-on-euclid-data",
-   "date": "2026-11-24T10:03:45.741000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "組込",
-   "title": "QuintaurisとSiemens、RISC-V普及で協業",
-   "summary": "RISC-Vの普及を推進するQuintaurisがSiemensとの協業を発表（11月19日）。Siemensのデバッグ・トレース・リアルタイム監視ツール「Tessent Embedded Analytics」を、Quintaurisが構築するRISC-Vエコシステムに拡張し、車載・産業向けSoCの開発を加速する狙い。",
-   "url": "https://semiiphub.com/pulse/news/quintauris-siemens-risc-v",
-   "date": "2026-11-24T10:03:45.697000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "OSS",
-   "title": "Ladybirdブラウザ、初のアルファ版をリリース",
-   "summary": "Chromium・WebKit・Geckoを一切使わずゼロから開発されたオープンソースブラウザ「Ladybird」が、初のアルファ版を公開（11月23日）。SerenityOSの趣味プロジェクトから約7年、ついにダウンロード可能な形に。Web標準テストではSafari Technology Previewを上回る進捗も。まだアルファのためクラッシュあり。2027年にベータ、2028年に安定版の予定。",
-   "url": "https://www.linuxcompatible.org/story/ladybird-browser-ships-first-alpha-after-years-of-fromscratch-development/",
-   "date": "2026-11-24T10:03:45.634000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "生成AI",
-   "title": "XPENG、物理AIモデル「WorldGPT」を発表",
-   "summary": "小鵬汽車（XPENG）が、車・ドローン・ロボットアーム・ヒューマノイドなど6種類のマシンで学んだ知識を1つのモデルに統合した「WorldGPT」を発表。自動運転、ロボット操作、映像生成など12の公開ベンチマークで1位を獲得。クラウドの教師モデルで学び、各機器のオンデバイスモデルへ知識を転移する仕組み。",
-   "url": "https://www.xpeng.com/news/01a20bcf44b3a1e838d68a02a2110153",
-   "date": "2026-11-24T10:03:45.411000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "Steam",
-   "title": "Valve、Steamのビルド審査前に「5分間のプレイ」を必須化",
-   "summary": "ValveがSteamのリリースチェックリストを更新し、ビルドを審査に出す前にSteamクライアント経由で5分間プレイすることが必須になりました。背景は審査待ちの急増で、通常3〜5営業日だった審査が最大12営業日まで延びているとのこと。クラウドセーブや実績、スクリーンショットの確認項目も強化されています。",
-   "url": "https://tml.news/stories/valve-requires-five-minutes-playtime-steam-review/",
-   "date": "2026-11-24T04:05:24.014000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "研究・論文",
-   "title": "論文：再トークン化のわずかなズレが強化学習の更新を大きく動かす",
-   "summary": "arXivに11月20日投稿された論文（arXiv:2611.27083）が、RLVR（検証可能な報酬による強化学習）における再トークン化の影響を定量化。約25トークンに1個の分割が起きるだけで、学習の更新量が別バッチを使った場合の約半分（R=0.556）に相当するほど動くことが分かりました。推論モデルの学習パイプライン設計に直結する知見です。",
-   "url": "https://www.aimodeling.com/en/news/slug/lossless-retokenization-moves-rlvr-update",
-   "date": "2026-11-24T04:05:23.015000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "組込",
-   "title": "Infineon初のRISC-Vマイコン「AURIX RC1」、その狙いを担当VPが語る",
-   "summary": "Infineonが11月4日に発表した車載マイコンAURIX RC1は、同社初のRISC-Vベース製品。最大12コア、最大40MBの内蔵メモリ、エッジAI向け並列処理ユニットを備え、ソフトウェア定義車両やフィジカルAIを狙います。RISC-V Internationalのインタビューで、InfineonのThomas Schneid氏が背景と展望を解説しています。",
-   "url": "https://riscv.org/blog/v-questions-with-infineon-thomas-schneid/",
-   "date": "2026-11-24T04:05:22.307000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "データ圧縮",
-   "title": "Zstandard 1.6が登場、約1年半ぶりのメジャーリリース",
-   "summary": "広く使われる圧縮アルゴリズムZstandardの1.6.0が公開されました。64ビットARMでの解凍高速化やSVE2対応CPUでの圧縮高速化、RISC-VのRVV最適化に加え、マルチスレッド処理や32ビット環境の不具合修正など多数の修正を含みます。前回リリースは2025年2月のv1.5.7でした。",
-   "url": "https://www.phoronix.com/news/Zstandard-Zstd-1.6",
-   "date": "2026-11-24T04:05:21.596000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "OSS",
-   "title": "OpenAIとCisco、オープンソースのLinuxランタイム防御ツール「Shirudo」を公開",
-   "summary": "OpenAIとCiscoが11月23日、Linuxサーバー向けオープンソースツール「Shirudo」を発表。恒久パッチの適用・検証中も、稼働中のシステムを特定のエクスプロイトから守ります。IsovalentのランタイムセキュリティプロジェクトTetragonを土台に、eBPFでカーネルレベルの防御を実現しています。",
-   "url": "https://cybersecuritynews.com/openai-and-cisco-launch-shirudo/",
-   "date": "2026-11-24T04:05:19.816000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "Python",
-   "title": "Vercel SandboxのPython SDKが1.0に到達、TypeScript版と同等機能へ",
-   "summary": "Vercel SandboxのPython SDKが1.0を公開し、公開APIが安定化。TypeScript SDKとの機能パリティを達成し、AI生成コードを隔離サンドボックスで実行できます。自動クリーンアップ用のコンテキストマネージャーや、asyncio／Trio対応のAnyIOベース非同期サポートも追加されました。",
-   "url": "https://aibriefs.news/card/bc6c1141-3e6d-4f47-8248-65d4b7c7f295",
-   "date": "2026-11-24T04:05:19.205000+00:00"
   }
  ]
 }
