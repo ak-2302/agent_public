@@ -1,6 +1,158 @@
 {
- "generated_at": "2026-11-26T22:16:58.095000+00:00",
+ "generated_at": "2026-11-27T10:16:51.582000+00:00",
  "items": [
+  {
+   "section": "興味",
+   "theme": "新サービス",
+   "title": "Saparo",
+   "summary": "買い物リンクを貼るだけで、米国の複数ストアで同じ商品を探し、クーポン・キャッシュバック・カード特典の組み合わせを検証して最安の買い方を提示するAIショッピングエージェント。送料・税金込みの総額で比較でき、決済はユーザーが店舗側で自分で行う仕組み。11/20にProduct Huntでデイリー1位を獲得し、現在ベータ公開中。",
+   "url": "https://www.producthunt.com/products/saparo",
+   "date": "2026-11-27T10:16:51.582000+00:00"
+  },
+  {
+   "section": "興味",
+   "theme": "新技術",
+   "title": "（11/26発表）",
+   "summary": "DeepLの音声翻訳モデル第2世代。音声→音声へ直接翻訳するエンドツーエンド設計で、従来の「文字起こし→翻訳→音声合成」の3段構えを1つのモデルに統合した。DeepLによれば前モデル比で翻訳の遅延（中央値）が50%減。東京で開かれた初のUnmute Summitで発表され、英・独・仏・西・日・韓の6言語に対応。DeepL Voiceのオンライン会議・対面会話・APIで自動的に有効化される。",
+   "url": "https://www.prnewswire.com/apac/news-releases/deepl-introduces-aure-v2-its-fastest-voice-ai-translation-model-302950696.html",
+   "date": "2026-11-27T10:16:51.548000+00:00"
+  },
+  {
+   "section": "興味",
+   "theme": "開発者ツール",
+   "title": "PeakCut",
+   "summary": "配信中のライブストリームをリアルタイムで切り抜き、9:16のショート動画に変換するセルフホスト型クリッパー（MITライセンス）。自分のAIキーを持ち込み、音声処理はオンデバイス、完成クリップはYouTube／Instagram／TikTokへ自動投稿も可能。11/14公開から9日で約1,800スターを集め、GitHubトレンド入りした。",
+   "url": "https://github.com/haziqahmedqasmi/PeakCut",
+   "date": "2026-11-27T10:16:51.537000+00:00"
+  },
+  {
+   "section": "興味",
+   "theme": "AIエージェント",
+   "title": "Omi CLI",
+   "summary": "ターミナルで動くAIコーディングエージェント。リポジトリを読み、計画を立て、差分を承認制で編集し、テストが通るまで修正を続ける。ターミナルを閉じてもバックグラウンド／クラウドで作業を継続し、並列サブエージェントはgit worktreeごとに分離して編集する。13モデルから自動選択、Freeプランあり。11/22のProduct Huntでデイリー8位を獲得。",
+   "url": "https://www.producthunt.com/products/omi-cli",
+   "date": "2026-11-27T10:16:51.499000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "Steam",
+   "title": "**SteamOS 3.10 Preview、NVIDIA GPUのメッシュシェーダに対応**",
+   "summary": "ValveがSteamOS 3.10のPreview版で、Turing世代以降のNVIDIA GPU向けにメッシュシェーダ対応や安定性・性能改善を追加した。『Shadow of the Tomb Raider』と『The Surge 2』の描画不具合も修正。あわせてArchベースの更新やデスクトップモードのPlasma 6.8.2移行も含まれる。Preview版のため不具合が残る可能性もある。",
+   "url": "https://windowsforum.com/news/steamos-3-10-preview-adds-nvidia-mesh-shaders-for-turing-and-newer-gpus.454303/",
+   "date": "2026-11-27T10:06:42.305000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "研究・論文",
+   "title": "**言語モデルが自分の重みを自分で書き換えて自己改善——勾配も再学習もなし**",
+   "summary": "arXivに投稿された論文で、27Bのオープンモデルが自分の重み・採点済みの回答・自己実行能力だけを使い、勾配計算や再学習なしに自分の重みを書き換えて性能を向上させたことが示された。未見の問題で6.6ポイント精度が向上。壊れたコピーを元の重みを読まずに80%以上の精度まで復旧させることにも成功したという。",
+   "url": "https://3quarksdaily.com/3quarksdaily/2026/11/language-models-can-rewrite-their-own-weights.html",
+   "date": "2026-11-27T10:06:41.686000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "組込",
+   "title": "**Microchip、耐放射線RISC-V宇宙船用チップ「PIC64-HPSC」の試験結果を公表**",
+   "summary": "Microchipが64ビットマルチコアRISC-Vの宇宙船用コンピューティング基盤「PIC64-HPSC」の初期放射線試験結果を発表した。耐放射線版PIC64-HPSC1000-RHは総線量200krad(Si)、シングルイベント・ラッチアップ78.2 MeV·cm²/mgの性能を示し、試験中に訂正不能エラーや外部リセットは発生しなかったという。NASAの次世代宇宙船搭載コンピュータ需要に応えるもの。",
+   "url": "https://wisevoter.com/world/us/2026/11/27/microchip-radiation-hardened-spaceflight-computing-chip",
+   "date": "2026-11-27T10:06:41.012000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "OSS",
+   "title": "**Kagi、OrionブラウザのLinux/Windows版をオープンソース化**",
+   "summary": "KagiがOrionブラウザのLinux版とWindows版のソースコードをGitHubで公開した（Apache 2.0）。Kagi自身は今後この2つのコードベースをメンテナンスせず、コミュニティによるフォークと継続開発を呼びかけている。iOS/macOS版の開発は引き続きKagiが担当する。",
+   "url": "https://piunikaweb.com/2026/11/27/orion-browser-for-linux-windows-goes-open-source-as-kagi-publishes-github/",
+   "date": "2026-11-27T10:06:40.404000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "Python",
+   "title": "**Windows向け「Python Installation Manager」が登場**",
+   "summary": "Windowsで複数バージョンのPythonを並行管理できる新しい「Python Installation Manager」が登場し、従来のMSIインストーラーに代わる選択肢となった。あわせてPyPIは配布物の形式要件を厳格化し、悪意ある展開攻撃を抑制する。またPython→C++コンパイラ「Shed Skin 1.0」もリリースされた。",
+   "url": "https://news.smargrid.com/software-news/2026/11/protect-your-python-programs-from-problems-and-perils.html",
+   "date": "2026-11-27T10:06:39.811000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "AIコーディング",
+   "title": "**GitHub CopilotのAgent Host——エディタを閉じてもエージェントは働き続ける**",
+   "summary": "GitHub Copilotの新機能「Agent Host」により、コーディングエージェントのセッションがVS Codeのウィンドウから切り離され、ノートPCを閉じても作業が継続されるようになった。Remote SSHやdev tunnel経由で動作し、オープンプロトコルAHPの上に構築されている。11月16日の変更履歴ではClaude Fable 5.2とGemini 4 Carbonも利用可能に。旧Localハーネスは2027年2月に廃止予定。",
+   "url": "https://techdrifting.com/articles/github-copilot-s-agent-host-does-your-editor-still-matter",
+   "date": "2026-11-27T10:06:39.190000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "生成AI",
+   "title": "**NVIDIA、ジェンスン・フアンCEOを復帰させる**",
+   "summary": "辞任からわずか11日後の11月23日、NVIDIA取締役会は創業者ジェンスン・フアン氏を社長兼CEOに全会一致で復帰させた。政府高官からのインプットを受け、再任に国家安全保障上のリスクはないと判断したという。フアン氏は不倫スキャンダルを受けて11月12日に辞任していた。なおNVIDIAの2027年度第3四半期売上高は1,158億ドル（前年比+103%）と好調。",
+   "url": "https://www.aljazeera.com/amp/economy/2026/11/23/nvidia-board-reinstates-jensen-huang-as-ceo",
+   "date": "2026-11-27T10:06:36.808000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "Steam",
+   "title": "SteamOS 0.5.11ベータ、Steam Frame向けに正式版候補として公開",
+   "summary": "Valveが11月26日、Steam Frame向けSteamOS 0.5.11ベータを公開。正式版候補と位置づけられ、パススルー（ルームビュー）のグレア修正やストリーミングのデコード性能向上、待機時の消費電力削減、ヘッドセットのトラッキング改善などを実施。SteamVRは2.19.5に更新。",
+   "url": "https://www.noobfeed.com/hardware/valve-steamos-0-511-beta-steam-frame",
+   "date": "2026-11-27T04:06:02.548000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "研究・論文",
+   "title": "論文: 部分ルーティングでエージェントを安く・賢く（arXiv:2611.33402）",
+   "summary": "エージェントタスク全体を1つのモデルに任せるのではなく、サブタスクごとに安いモデルへ委譲する「部分ルーティング」を提案する論文が11月26日に公開。過去の実行履歴から委譲先を決めることで、ViBenchのスコアを70.2→78.5に上げつつコストを19%削減したと報告している。",
+   "url": "https://www.foxai.news/en/news/partial-routing-trace-tuned-delegation-for-resource-efficient-agentic-workflows",
+   "date": "2026-11-27T04:06:01.896000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "組込",
+   "title": "electronica 2026: ロボティクス・フィジカルAI向けMCUが主役に",
+   "summary": "ミュンヘンで開催されたelectronica 2026では、ロボティクスとフィジカルAI向けのMCU/MPUプラットフォームが目玉に。GigaDeviceはCortex-M7搭載のGD32H7ファミリを発表（ロボット関節サーボ制御向けなど）、InfineonはRISC-Vベースの車載MCUプラットフォーム「AURIX RC1」を披露した。",
+   "url": "https://www.edn.com/electronica-2026-spotlights-robotics-and-physical-ai-as-key-industry-trends/",
+   "date": "2026-11-27T04:05:57.896000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "データ圧縮",
+   "title": "JPEGの算術符号化を並列化し20〜30%削減する手法、論文が公開",
+   "summary": "従来JPEGの算術符号化にレート歪み最適化量子化（RDOQ）を組み合わせ、再開マーカーで並列処理する手法の論文が11月26日に公開。Huffmanベースの標準エンコーダ比で約20〜30%のビットレート削減を達成しつつ、ビットストリーム互換性を維持するとしている。",
+   "url": "https://www.mdpi.com/2076-3417/16/23/11769",
+   "date": "2026-11-27T04:05:57.064000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "OSS",
+   "title": "Node.js 27アルファ公開、HTTP接続再利用の脆弱性対策など",
+   "summary": "Node.jsプロジェクトが11月26日、27.0.0-alpha.0.2.0を公開。HTTPクライアントの接続再利用に関する脆弱性CVE-2026-105481の修正を引き継ぎ、TLS 1.2再ネゴシエーションを無効化できる設定も追加（既定は有効のまま、非推奨化）。あわせて22/24/26系のセキュリティ修正版も公開済み。",
+   "url": "https://cybersecuritynews.com/node-js-27-alpha/",
+   "date": "2026-11-27T04:05:55.974000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "Python",
+   "title": "Apple、Keynoteファイルを読み書きできるPythonライブラリを公開",
+   "summary": "AppleがKeynoteのファイル（.keyx）を読み書き・検証できるPythonライブラリ「creator-studio-doc-format」をGitHubで公開（11月16日）。スライドやテキスト、画像、表、チャート、スタイルをPythonから扱え、ライセンスはApache 2.0。Python 3.13以降が必要。",
+   "url": "https://reveneau.com/ainews/apple-keynote-python-library-keyx-agent-skill-237-stars",
+   "date": "2026-11-27T04:05:55.428000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "AIコーディング",
+   "title": "Claude Code 2.1.332、MCPサーバー提供のスキル読み込みに対応（ベータ）",
+   "summary": "11月24日公開のClaude Code 2.1.332で、MCPサーバーが提供する「スキル」を読み込めるように（ベータ）。フォルダへのファイル配置なしにワークフローを共有できる。あわせてPrismMLの27Bコーディングモデル「Ternary Bonsai 2.5」（約6GB）や、Claudeアーティファクトのデスクトップアプリ化（ベータ）も同日に登場。",
+   "url": "https://tech.grahammiranda.com/mcp-skills-claude-code-local-llm-desktop-apps/",
+   "date": "2026-11-27T04:05:54.776000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "生成AI",
+   "title": "SenseTime、ロボット操作モデル「SenseNova-RoboRSI-27B」正式版を公開",
+   "summary": "SenseTimeが11月25日、ロボット操作向け視覚言語モデルSenseNova-RoboRSI-27Bの正式版を公開。VLAの軌道評価とコードによるアーム制御の切り替えを同じモデルでこなし、RoboDojoシミュレーションの平均進捗スコアは34.7（プレビュー版は10.0）。重みはApache 2.0で公開済み。",
+   "url": "https://aiyxl.com/en/news/1795744455092207",
+   "date": "2026-11-27T04:05:54.096000+00:00"
+  },
   {
    "section": "興味",
    "theme": "新サービス",
@@ -328,158 +480,6 @@
    "summary": "米ワシントン大学セントルイス校のチームが、曲げたり伸ばしたりするほど強くなる自己強化型ハイドロゲルを開発し、Nature Materials に発表（11/21）。シクロデキストリンという糖由来の環状分子が、負荷のかかった場所で再配列して結晶化し、組織が整っていく仕組み。1万回の屈曲テストでも性能を維持した。 3Dプリンタ対応で生分解性もあり、柔らかいロボットや関節・義肢、ウェアラブルなど、「使うほど劣化する」という素材の常識を覆すものとして注目されている。",
    "url": "https://phys.org/news/2026-11-sugar-based-hydrogel.html",
    "date": "2026-11-25T22:17:24.454000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "AIエージェント",
-   "title": "Anthropic「Claude Ship」— PRのレビュー・修正・承認をエージェントが自動化",
-   "summary": "Anthropicが11/23〜24に発表した、GitHubのプルリクエストをAIエージェントが自動で回す新サービス。Code Review（GA）、PR Steward（マージ競合やCI失敗の解消）、Claude Approvals（チームのポリシーに基づく承認）の3つのエージェントで構成される。 AIが書くコード量の急増でレビューがボトルネックになっている現状への回答。承認はベータ期間中は監視モード推奨など、人間の統制を残す設計が特徴。Claude Team / Enterprise向けに展開中。",
-   "url": "https://theworldofai.org/ai-news/845e48dd/",
-   "date": "2026-11-25T22:17:24.406000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "Steam",
-   "title": "**SteamOS 3.9.7ベータ、Deckのバックライト不具合と白い矩形の描画バグを修正**",
-   "summary": "ValveがSteamOS 3.9.7ベータを配信開始。SteamOS 3.9で生じたバックライト調整の不具合と、まれに画面へ白い矩形が出る描画バグを修正するほか、タイムゾーン定義の更新や安定性・セキュリティの更新を含みます。Beta/Previewチャンネル向けの配信です。",
-   "url": "https://gameloop.gg/articles/steamos-3-9-7-beta-fixes-deck-backlight-rendering-frame-timing-steam/",
-   "date": "2026-11-25T22:06:08.338000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "研究・論文",
-   "title": "**3Dプリント製ロボットハンド、複雑さを減らして器用さを維持**",
-   "summary": "3Dプリントで作れる人型ロボットハンド「PHD-Hand」がarXivで発表されました。リンケージ駆動の3自由度指により、市販の高価格ハンドに比べて安価で信頼性が高く、機能は損なわない設計。ブラウザ操作での制御や、LLMによる音声・文字指示への対応も見据えています。",
-   "url": "https://techxplore.com/news/2026-11-3d-robotic-complexity-sacrificing-dexterity.html",
-   "date": "2026-11-25T22:06:07.564000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "組込",
-   "title": "**ESP32を9.4KBのRAMで遠隔アクセス可能にする「Pinscope」**",
-   "summary": "ESP32などのマイコンに搭載されたWebサーバーへ、ポート開放やVPNなしでHTTPS経由でアクセスできるリモートアクセスサービス「Pinscope」が紹介されました。ログやクラッシュ解析、段階的OTAも備え、ESP32-S2での接続時RAM使用量は9.4KBとされています。ZephyrやPico 2 Wなどはベータ対応。",
-   "url": "http://pinoutfeed.com/article/pinscope-esp32-zephyr-pico-2-w-remote-access-ota-noise-protocol-november-2026",
-   "date": "2026-11-25T22:06:06.938000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "データ圧縮",
-   "title": "**zstdのCVE-2026-124851を深掘り——使い回した解凍コンテキストから古いバイトが漏れる仕組み**",
-   "summary": "zstd 1.5.1〜1.5.7のデコーダにあった情報漏洩の脆弱性（CVE-2026-124851）について、再利用されたストリーミング解凍コンテキストから過去の解凍データや未初期化メモリが紛れ込む仕組みを解説した記事。修正済みの1.6.0への更新が推奨されています。",
-   "url": "https://kdpisda.in/zstd-cve-2026-124851-reused-dctx-stale-literals/",
-   "date": "2026-11-25T22:06:05.349000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "OSS",
-   "title": "**Cortex v2.0.1、セキュリティ強化とAIエージェント向けツールチェーンを改善**",
-   "summary": "オープンソースのAI開発者ツールCortexがv2.0.1をリリース。デモ用のトークンや鍵などの機密情報を思わせる値をリポジトリから除去し、スキル導入まわりの堅牢化やJSON出力の拡充など、セキュリティと信頼性中心のメンテナンス更新です。",
-   "url": "https://undercodenews.com/cortex-v201-just-made-its-security-hardening-and-ai-agent-toolchain-more-consistent-video/",
-   "date": "2026-11-25T22:06:04.493000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "Python",
-   "title": "**GitHubで注目のPythonプロジェクト（11月25日版）**",
-   "summary": "RAGベースのエンタープライズ向けエージェント構築プラットフォーム「MaxKB」や、Claude Codeと連携する学術研究アシスタント「claude-scholar」、深掘り調査エージェント「hyperresearch」など、Python製のAIエージェント系プロジェクトがGitHubで注目を集めています。",
-   "url": "https://www.alextech.ai/en/news/github-digest-25-november-2026/",
-   "date": "2026-11-25T22:06:03.842000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "AIコーディング",
-   "title": "**OpenAI、エージェント時代のGitバックエンド「Pando」を公開**",
-   "summary": "OpenAIが自社モノレポ全体で使っているGitバックエンド「Pando」の詳細を公開。ブランチ更新を独立に調整し、fetch間でpackfileを再利用することで、pushの中央値レイテンシを約80%削減。1日あたり約1ペタバイトのGitデータ処理を支え、Codex主導の開発が背景にあります。",
-   "url": "https://ai.dosa.dev/blog/today-in-ai-2026-11-25",
-   "date": "2026-11-25T22:06:03.182000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "生成AI",
-   "title": "**AnthropicのMCP、月間ダウンロード7億回超え——エージェント基盤の標準に**",
-   "summary": "AnthropicのModel Context Protocol（MCP）の開発者ツールが月間7億ダウンロードを突破。Skills over MCPがパブリックベータ、TasksとElicitationが正式提供開始となり、エージェントがより自律的に動くための基盤整備が進んでいます。",
-   "url": "https://www.thecodew.com/2026/11/ai-watch-november-25.html",
-   "date": "2026-11-25T22:05:27.800000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "Steam",
-   "title": "**Steamアワード10周年記念「Hall of Fame」新設 — 過去10年のGOTYが直接対決**",
-   "summary": "ValveがSteamアワード10周年を記念し、過去10年のゲーム・オブ・ザ・イヤー受賞作が競う新カテゴリ「Hall of Fame」を発表。GTA 5、ウィッチャー3、エルデンリング、バルダーズ・ゲート3、シルクソングなど10作がノミネート。ノミネートは11月30日まで、投票は12月17日のウィンターセールと同時に開始。",
-   "url": "https://www.dexerto.com/gaming/steam-is-pitting-10-years-of-game-of-the-year-winners-against-each-other-3431243/",
-   "date": "2026-11-25T16:04:45.721000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "研究・論文",
-   "title": "**MITの「SLIC」、小さな言語モデルでアナログチップ設計を高速化**",
-   "summary": "MITの研究チームが、小規模言語モデルを反復的にファインチューニングする手法「SLIC」を開発し、アナログIC設計の効率化・低コスト化に成功したと発表。論文はarXivに公開され、NeurIPS 2026で発表予定。アナログ回路設計は従来熟練者の手作業に依存する領域で、AIによる自動化が注目される。",
-   "url": "https://techxplore.com/news/2026-11-slic-analog-chips-faster-expense.html",
-   "date": "2026-11-25T16:04:45.645000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "データ圧縮",
-   "title": "**zstdのCVE-2026-124851を深掘り — Rust製mzstdはなぜ影響を受けないのか**",
-   "summary": "11月23日に公開されたzstd 1.6.0が修正した情報漏洩の脆弱性CVE-2026-124851について、仕組みを検証した解説記事。使い回した復号コンテキストで不正なフレームを処理すると、64KiBの内部バッファの内容（未初期化メモリや過去の復号データ）が漏れる可能性。Cライブラリを使わないRust実装mzstdは影響なし。1.5.1〜1.5.7は1.6.0への更新が推奨される。",
-   "url": "https://m-compressors.github.io/2026/zstd-cve-2026-124851-mzstd/",
-   "date": "2026-11-25T16:04:45.634000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "AIコーディング",
-   "title": "**Bonsai 2.5、27BでSWE-bench 75.6を記録 — オンデバイスで動くコーディングモデル**",
-   "summary": "PrismMLがTernary Bonsai 2.5 27Bを公開。わずか5.9GBに収まりながらSWE-bench Verifiedで75.6を記録し、ツール利用スコアも大幅に改善。Mac / iPhone / iPadでMLX経由で動作し、重みはApache 2.0で無料公開。プライベートなプロジェクトをクラウドに出さずにコーディング支援できる点が注目される。",
-   "url": "https://9to5mac.com/2026/11/24/prismmls-bonsai-2-5-brings-better-coding-and-tool-use-to-on-device-ai/",
-   "date": "2026-11-25T16:04:45.621000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "組込",
-   "title": "**Intel MEとAMD PSPを解説 — パッチ不能なファームウェアのリスク**",
-   "summary": "OSより先に起動する組込セキュリティプロセッサ、Intel MEとAMD PSPの仕組みとリスクを解説した記事。11月17日公開のAMD勧告では、Zen 1 / Zen+のPSPブートROMの脆弱性CVE-2026-74127（CVSS 9.4）が「修正パッチなし」とされており、見えないファームウェア層のリスクが改めて浮き彫りに。",
-   "url": "https://windowsforum.com/news/intel-me-and-amd-psp-explained-pre-boot-security-remote-access-and-unpatchable-firmware-risks.454047/",
-   "date": "2026-11-25T16:04:45.592000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "Python",
-   "title": "**Node2Shellの脆弱性、Pythonにも波及 — brotliは1.2.1へ更新を**",
-   "summary": "Node.jsを揺るがしたBrotliデコーダの脆弱性「Node2Shell」(CVE-2026-111497)は、PyPIのbrotli / brotlicffiパッケージにも影響する。brotliがインストールされた環境ではurllib3 / requestsが自動でbr圧縮を要求し、同じCコード経由で脆弱性に到達する可能性。修正版はbrotli 1.2.1 / brotlicffi 1.2.1.0。CVSS 9.2のCritical。",
-   "url": "https://dev.clauneck.workers.dev/gabrielanhaia/node2shell-reaches-python-if-brotli-is-installed-requests-asks-servers-for-br-2lla",
-   "date": "2026-11-25T16:04:45.564000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "OSS",
-   "title": "**AnthropicのOSS Scannerが発見したDrupalのRCE、実際に悪用されCISAが期限付き対応を指示**",
-   "summary": "Anthropicの無料OSS監査サービス「OSS Scanner」が発見したDrupalコアのRCE脆弱性CVE-2026-132165が実際に悪用され、CISAが11月24日に既知の悪用脆弱性カタログへ追加。連邦機関には11月27日までの対応を指示。Drupalは11月18日にパッチ済みだが、翌19日から攻撃が始まっていた。",
-   "url": "https://www.ainewstodays.com/anthropic-oss-scanner-drupal-flaw-cve-2026-132165-exploited",
-   "date": "2026-11-25T16:04:45.539000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "生成AI",
-   "title": "**GPT-6.2がタンパク質設計に挑戦、実験で結合を確認**",
-   "summary": "OpenAIがGPT-6.2に推論とコードだけでタンパク質のミニバインダーを設計させ、実験室での初期検証で5つの標的への結合が確認されたと報告。フロンティアモデルが「実験で検証できる科学的成果」で評価される時代に入りつつある。ほか、Gemini 4 NeonがLiveBenchで首位を奪還、ClaudeのArtifactがデスクトップアプリ化など。",
-   "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-25-2026/",
-   "date": "2026-11-25T16:04:20.722000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "新サービス",
-   "title": "AlterContacts — AIが顧客との関係を整理してくれるiPhoneアプリ（11/21 Product Huntでローンチ）",
-   "summary": "会議や打ち合わせのあとに話しかけるだけで、内容を正しい顧客のプロフィールに整理し、やるべきことを見つけてフォローアップの下書きまで作ってくれる、AIクライアント関係アシスタント。顧客数が増えて手が回らなくなったアドバイザーや不動産・コンサル向けのサービスです。 なぜ話題か：メモや連絡先を「手で整理する」作業そのものをAIに任せる発想で、記録→整理→フォローアップまで一気通貫なのが新しいところ。無料プランあり、ローンチ週（11/21〜29）はコード「PRODUCTHUNT」でProが1か月無料です。",
-   "url": "https://altercontacts.ai/blog/altercontacts-product-hunt-launch",
-   "date": "2026-11-25T10:17:15.475000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "開発者ツール",
-   "title": "Codex Security — OpenAIのオープンソース脆弱性スキャン CLI / SDK",
-   "summary": "`cs scan .` を実行するだけで、コードの脆弱性を「見つける→サンドボックスで検証する→修正パッチと回帰テストまで作る」エージェント型のセキュリティツール。CLIのほかTypeScript SDKとGitHub Actionもあり、CIに組み込めます。Apache-2.0ライセンスで、スターは1.4万超。 なぜ話題か：従来のルールベース静的解析と違い、LLMがプロジェクト固有の脅威モデルを立てて検証してから修正案を出す点。AIが書いたコードが増える中で「AI生成コードのセキュリティをどう担保するか」という需要に直結し、GitHub Trending上位に食い込んでいます。なおスキャン自",
-   "url": "https://github.com/openai/codex-security",
-   "date": "2026-11-25T10:17:15.420000+00:00"
   }
  ]
 }
