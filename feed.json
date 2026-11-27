@@ -1,6 +1,134 @@
 {
- "generated_at": "2026-11-27T10:16:51.582000+00:00",
+ "generated_at": "2026-11-27T22:04:27.106000+00:00",
  "items": [
+  {
+   "section": "ニュース",
+   "theme": "Steam",
+   "title": "Proton Experimental更新（11/27）、FBC: Firebreakのクラッシュなどを修正",
+   "summary": "「EVERYONE'S TIER LIST」がプレイ可能に。FBC: Firebreakのパーティ参加時クラッシュ、Terminator: Dark Fate – Defianceのカットシーン音声欠落、Strange Brigadeのメモリリークなどを修正。",
+   "url": "https://steamdeckhq.com/news/proton-experimental-update-fixes-fbc-firebreak/",
+   "date": "2026-11-27T22:04:27.106000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "研究・論文",
+   "title": "GPT-6 Astraの助けを借りた量子重力の論文がarXivに登場（未査読）",
+   "summary": "スタンフォードの物理学者Venkatesa Chandrasekaran氏が、重力を量子力学で記述する枠組みを提案する83ページの論文を11月25日にarXivへ投稿。数か月にわたり約4億トークン分の計算資源をOpenAIが提供し、GPT-6 Astraが計算と証明の作成を支援したという。査読は未了。",
+   "url": "https://www.therundown.ai/news/gpt-6-astra-quantum-gravity-paper",
+   "date": "2026-11-27T22:04:26.298000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "組込",
+   "title": "Waveshare、28×18mmの超小型ボード「ESP32-S31-Zero」を発表",
+   "summary": "Espressifの新型ESP32-S31（デュアルコア32bit RISC-V、最大320MHz）を搭載。Wi-Fi 6、Bluetooth 5.4、Zigbee/Thread対応で、最大32MBのPSRAM/フラッシュを備える。",
+   "url": "https://blog.vinjo.co.in/blog/2026-11-27-waveshare-launches-the-esp32-s31-zero-hacksterio",
+   "date": "2026-11-27T22:04:25.576000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "データ圧縮",
+   "title": "純Rustのzstd実装「yolowzstd 0.1.3」、圧縮速度と圧縮率を大幅改善",
+   "summary": "新しいSWARベースのマッチャーやエントロピー誘導の最適パーサーを導入し、レベル9で最大2.37倍の高速化。デコードも最大29.5%高速化した。",
+   "url": "https://pulseaugur.com/cluster/375628-yolowzstd-0-1-3-boosts-compression-speed-and-ratio-in-pure-rust",
+   "date": "2026-11-27T22:04:24.969000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "OSS",
+   "title": "Omarchy 4.6-RC1公開、ローカルAI統合を強化",
+   "summary": "Arch LinuxベースのディストリビューションOmarchyの次期版リリース候補。ローカルAIとの統合を深め、独自のファイルマネージャーを追加した。",
+   "url": "https://elph.ru/en/news/vyshla-omarchy-4-6-rc1-bolshe-lokalnogo-ii-i-sobstvennyi-failovyi-menedzher/",
+   "date": "2026-11-27T22:04:24.251000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "Python",
+   "title": "Anthropic、Claude Messages APIの中核をPythonからRustへ移行",
+   "summary": "11月26日にダウンタイムなしで移行を完了。コードの8割以上をClaudeが生成し、自律検証で進めたという。高トラフィックのストリーミング処理でPythonのCPU・メモリ限界が背景に。",
+   "url": "https://betabriefing.ai/channels/the-gateway-signal/briefings/2026-11-27/",
+   "date": "2026-11-27T22:04:23.557000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "AIコーディング",
+   "title": "Claude Codeの中心メンバーがOpenAIへ――Codex再構築の動き",
+   "summary": "Claude Codeを手がけたエンジニア3人が3週間でOpenAIへ移籍。11月25日には中心人物のThariq Shihipar氏が移籍を発表し、OpenAI側は「Codexを再構築する時が来た」と発言。コーディングエージェント競争が人材獲得競争の様相に。",
+   "url": "https://ai-trends-daily.pages.dev/blog/claude-code-team-joins-openai-2026",
+   "date": "2026-11-27T22:04:22.909000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "生成AI",
+   "title": "NVIDIA、30Bパラメータの画像生成モデル「Nemotron-Labs-Image-30B-A3B」をオープンソース化",
+   "summary": "拡散モデルではなく自己回帰型で画像トークンを逐次生成するモデル。重みをHugging Faceで公開し、エージェント連携システムは一部ベンチマークでGPT Image 2を上回るとされる。11月27日公開。",
+   "url": "http://aisengtech.com/ai-research-open-source-llm-brief-2026-11-27/",
+   "date": "2026-11-27T22:04:22.210000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "研究・論文",
+   "title": "**論文：モデル自身にコンテキスト管理を任せる「モデル駆動型コンテキスト管理」の現状**",
+   "summary": "エージェントハーネスが要約による圧縮を肩代わりする現状に対し、モデル自身がいつ・何を圧縮するかを決める「モデル駆動型コンテキスト管理」を調査した論文がarXivに登場。コンテキストAPIを通じてモデルが自律的に管理するアプローチの到達点と課題を整理している。",
+   "url": "https://arxiv.org/abs/2611.34147v1",
+   "date": "2026-11-27T16:05:20.060000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "Steam",
+   "title": "**Valve、Proton 11.0-3をリリース——新たに15タイトルに対応**",
+   "summary": "WindowsゲームをLinux／Steam Deckで動かす互換レイヤーProtonの安定版アップデート。「City Car Driving」「Blair Witch VR」など15タイトルに新たに正式対応し、32bit OpenXRの初期サポートも追加。「Borderlands 4」「Far Cry 5」などの不具合修正も含み、Steamクライアント経由で自動配信中。",
+   "url": "https://en.gamegpu.com/news/igry/valve-vypustila-proton-11-0-3-s-podderzhkoj-15-novykh-igr-na-linux-i-steam-deck",
+   "date": "2026-11-27T16:05:20.052000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "組込",
+   "title": "**Infineon、初のRISC-V車載マイコン「AURIX RC1」を発表**",
+   "summary": "InfineonがオープンなRISC-Vを採用した初の車載グレードマイコンプラットフォーム「AURIX RC1」を発表。ボディ、バッテリー管理、ブレーキ、操舵、電動化など車両の各ドメインをカバーし、ゾーンコントロールやADASの安全制御まで対応。中国EVメーカーなどと業界団体「RISC-V Club」も立ち上げ。サンプル出荷は2027年予定。",
+   "url": "https://www.motorsmagazine365.com/infineon-launches-aurix-rc1-its-first-risc-v-automotive-chip-platform/",
+   "date": "2026-11-27T16:05:19.989000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "データ圧縮",
+   "title": "**Firefoxが辞書圧縮（Dictionary Compression）に対応**",
+   "summary": "FirefoxがCompression Dictionary Transportによる辞書圧縮を出荷。共通の辞書を使って圧縮することで、繰り返し訪れるページなどの転送量を削減できる。Webパフォーマンス改善の新しい標準技術として注目される。",
+   "url": "https://csswizardry.com/2026/11/web-perf-wednesday-019-firefox-ships-dictionary-compression/",
+   "date": "2026-11-27T16:05:19.960000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "OSS",
+   "title": "**Omarchy 4.6-RC1公開、ローカルAI統合を強化**",
+   "summary": "Arch Linuxベースのディストリ「Omarchy」の4.6リリース候補が公開。ローカルAIの統合を深め、独自のファイルマネージャーを追加。コーディングエージェントがオンデバイスのモデルやtailnet経由のモデルをネットワーク遮断コンテナ内で利用できるように。正式版はこの後。",
+   "url": "https://subagentic.ai/posts/omarchy-4-6-rc1-local-agent-models/",
+   "date": "2026-11-27T16:05:09.124000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "生成AI",
+   "title": "**Ant Group、画像生成モデル「Ming-Image-0.2-Design」をオープンウェイトで公開**",
+   "summary": "デザイン特化のテキストto画像モデル（60億パラメータ）をMITライセンスで公開。Hugging Faceで重みを入手でき、Artificial Analysisの画像生成リーダーボードではオープンウェイトモデルで首位（Elo 1,095）。EC画像やUIモック、ポスターなど文字入りデザイン生成が得意。来週にはレイヤー分解版の公開も予定されている。",
+   "url": "https://i10x.ai/news/ming-image-0-2-design-open-image-model-elo-80gb-gpu",
+   "date": "2026-11-27T16:05:09.056000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "AIコーディング",
+   "title": "**Pydantic、ターミナル向けコーディングエージェント「Pax」を公開**",
+   "summary": "Pydantic AI Harness SDKのベータと同時に、公式ターミナルコーディングエージェント「Pax」をリリース。すべてがプラグイン構成で、任意のモデルや自作エージェントを使え、Claude Code／Codexのセッションも引き継ぎ可能。自社ベンチ（Harness-Bench SWE81）では4ハーネス中最高の平均スコア58.5を記録。uvx pydantic-ai-pax ですぐ試せる。",
+   "url": "https://pydantic.dev/articles/pax-harness-beta",
+   "date": "2026-11-27T16:05:08.997000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "Python",
+   "title": "**Anthropic、Messages APIのPython実装をRustへ移行——8割以上をClaudeが記述**",
+   "summary": "AnthropicがMessages APIの中核をPythonからRustへ書き換えた取り組みを公開。出荷されたコードの8割以上をClaudeエージェントが書き、人間はレビュー役に回ったという。エージェントによる大規模リライトの実例として注目される。",
+   "url": "https://iocloud.info/news/anthropic-rewrote-its-api-in-rust-4-other-stories/",
+   "date": "2026-11-27T16:05:08.958000+00:00"
+  },
   {
    "section": "興味",
    "theme": "新サービス",
@@ -352,134 +480,6 @@
    "summary": "Weebit Nanoが、ReRAMクロスバーを使ったインメモリコンピューティング（IMC）の研究プログラム「Matrix IMC Research Program」を発表しました。AI推論でメモリとプロセッサ間のデータ移動が消費する電力を減らす狙いで、研究者向けに実チップ入りの評価キットを提供します。商用IP化は2〜3年後を見込んでいるとのことです。",
    "url": "https://www.allaboutcircuits.com/news/weebit-accelerates-future-of-in-memory-compute-with-new-research-program/",
    "date": "2026-11-26T10:04:51.005000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "データ圧縮",
-   "title": "**100KB制限下でJPEG・WebP・AVIF・JPEG XLを実測比較**",
-   "summary": "画像を100KBちょうどに収める場合、どの形式が画質を保てるかを実測した検証記事（11月25日計測）。写真ではJPEG XLがSSIM 0.980でトップ、接写ではAVIFが勝利するなど、画像によって勝者はバラバラ。先にリサイズしてから画質を上げる戦略が、画質を潰すより有効という結果も。スクリーンショットではJPEG XLのロスレスがPNGの半分以下のサイズになりました。",
-   "url": "https://medium.com/@cuelarkofficial/what-does-a-100-kb-cap-do-to-image-quality-we-tested-jpeg-webp-avif-and-jpeg-xl-nov-2026-927e054a723e",
-   "date": "2026-11-26T10:04:50.409000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "OSS",
-   "title": "**Pop!_OS 26.04 LTSが登場、COSMICの新機能をまとめて搭載**",
-   "summary": "System76がPop!_OS 26.04 LTSを11月24日にリリースしました。壁紙や配色などを一括で切り替えるテーマ機能「Constellations」、ペンタブレット対応、自動アップデート、刷新されたCOSMIC Storeなどが目玉。カーネルはLinux 7.2.15、COSMIC Epoch 1.12を搭載します。24.04からのアップグレードは12月に有効化される予定です。",
-   "url": "https://system76.com/blog/post/pop_os-26-04-lts-has-landed",
-   "date": "2026-11-26T10:04:49.824000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "Python",
-   "title": "**Sentry、Python SDK 3.0.0をリリース（破壊的変更あり）**",
-   "summary": "SentryがPython SDKのメジャーバージョン3.0.0を11月23日に公開しました。スパンのストリーミング配信、きめ細かいPII制御、AWS Lambda計測の更新などが含まれます。メジャーアップデートのため、アップグレード時は破壊的変更の確認が必要です。",
-   "url": "https://devnews.app/news/sentry-releases-python-sdk-3-0-0",
-   "date": "2026-11-26T10:04:48.987000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "AIコーディング",
-   "title": "**Claude Code v2.1.332、MCPサーバーからのSkill読み込みに対応**",
-   "summary": "AnthropicがClaude Code v2.1.332を11月25日にリリースしました。MCPサーバーが提供するスキルをベータ機能として読み込めるようになり、実行前フックによるインラインシェルコマンドの検証・拒否も強化されました。あわせてGitHub Copilotは、コードレビューの課金を12月30日から組織へデフォルト適用する方針も発表しています。",
-   "url": "https://daily-ai-dev.pages.dev/blog/2026-11-26/",
-   "date": "2026-11-26T10:04:48.149000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "生成AI",
-   "title": "**百度、ERNIE 5.5 Flash Previewの重みをApache 2.0で公開**",
-   "summary": "百度が大規模言語モデル「ERNIE 5.5 Flash Preview」の重みをHugging Faceで公開しました。総パラメータ2800億（トークンあたり140億が活性化）のMoEモデルで、コンテキスト長は最大100万トークン。FP8／FP4／BF16の3形式があり、SGLangやvLLMで動かせます。ただし開発途中のプレビュー版で、llama.cppなどへの対応はまだこれからとのことです。",
-   "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
-   "date": "2026-11-26T10:04:47.492000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "Steam",
-   "title": "**Steamブラックフライデーセール、本日11月26日スタート**",
-   "summary": "Steamのブラックフライデーセールが本日11月26日（木）午前10時（太平洋時間）から11月30日まで開催されます。今回はストア全体の一律セールではなく、各スタジオが参加を決める形式で、割引は特別オファーのハブに集約されます。Steamアワード2026のノミネート受付も11月30日まで。",
-   "url": "https://playstationcouch.com/post.php?id=860",
-   "date": "2026-11-26T04:03:53.249000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "研究・論文",
-   "title": "**電子顕微鏡解析を自己改善するフレームワーク「PhyEvo-Mic-RSI」**",
-   "summary": "電子顕微鏡画像から原子レベルの欠陥や界面構造を読み解く作業を、物理法則と専門家の知見に基づき再帰的に自己改善するフレームワーク「PhyEvo-Mic-RSI」がarXivに登場しました（11月25日、arXiv:2611.32325）。一度きりの人手による修正を、検証可能な再利用できる能力へ変換する仕組みです。",
-   "url": "https://www.aitopic.com/a-recursive-self-improvement-framework-for-electron-microscopy-analysis.html",
-   "date": "2026-11-26T04:03:52.778000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "組込",
-   "title": "**SolidRunとMikroElektronika、150超のアドオンに対応するSBC「HummingBoard Gate」発表**",
-   "summary": "SolidRunとMikroElektronikaが11月25日、150種類以上の「click」アドオンボードに対応するシングルボードコンピュータ「HummingBoard Gate」を発表しました。MikroBUSソケットを統合した初のアプリケーションプロセッサボードで、センサーや通信モジュールなどを差し替えてIoT開発に使えます。",
-   "url": "https://can-newsletter.org/catalogue/do/printArticle/id/151001_sbc-with-over-150-add-ons_humming-board_solid-run/151001_sbc-with-over-150-add-ons_humming-board_solid-run.pdf",
-   "date": "2026-11-26T04:03:52.155000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "データ圧縮",
-   "title": "**Tor Project、Zstdの脆弱性CVE-2026-124851で更新＋Tor再起動を呼びかけ**",
-   "summary": "Tor Projectが11月25日、圧縮ライブラリZstdの情報漏えいの脆弱性（CVE-2026-124851）について、パッケージ更新だけでなくTorプロセスの再起動も必須だと呼びかけました。更新だけでは古いライブラリが使われ続けるためです。対象はZstd 1.5.1〜1.5.7で、修正版は1.6.0です。",
-   "url": "https://forum.torproject.org/t/tor-relays-cve-2026-124851-zstd-compression-information-leak-bug-upgrade-your-zstd-packages-and-restart-tor/22609",
-   "date": "2026-11-26T04:03:51.547000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "OSS",
-   "title": "**openSUSE Hack Week 26、注目プロジェクトをプレビュー**",
-   "summary": "openSUSEが11月25日、来週開催のHack Week 26に向けた注目プロジェクトを紹介しました。NetworkManagerへのWi-Fi WDS対応、クラウドAI向け通信をローカルで検査する軽量プロキシ「ai-guard」、btrfsスナップショットの検証機能、Rancherログ解析ツールなど5件が取り上げられています。",
-   "url": "https://news.opensuse.org/2026/11/25/hw-preview/",
-   "date": "2026-11-26T04:03:45.977000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "Python",
-   "title": "**Databricks Python SDK v0.171.0公開**",
-   "summary": "Databricks Python SDKのv0.171.0が11月25日に公開されました。Genie Migrateのワークスペースサービスが新たに追加され、メトリクスビューやエージェントスキル向けのMarketplaceアセットタイプにも対応。Genieエージェントの一部フィールド削除などの破壊的変更も含まれています。",
-   "url": "https://www.brickster.ai/releases/databricks/databricks-sdk-py/v0.171.0",
-   "date": "2026-11-26T04:03:45.286000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "AIコーディング",
-   "title": "**国産コーディングAI「CodeSense」、PC内LLM対応へ**",
-   "summary": "ナレッジセンスが国産コーディングAI「CodeSense」で、PC内で動くLLMを利用できる機能の提供予定を発表しました（11月26日）。コードを外部のAIに送らず、ローカル環境で作成・修正できるようになり、β版ユーザーを募集中です。社内コードを外部に出せない企業向けの選択肢が広がります。",
-   "url": "https://www.the-miyanichi.co.jp/pressrelease/prtimes/1289582.html",
-   "date": "2026-11-26T04:03:44.395000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "生成AI",
-   "title": "**バイドゥ、ERNIE 5.5 Flash Previewの重みをApache 2.0で公開**",
-   "summary": "バイドゥが11月23〜24日、2800億パラメータのMoEモデル「ERNIE 5.5 Flash Preview」の重みをHugging Faceで公開しました。トークンあたりの有効パラメータは140億、コンテキストは約100万トークン。FP8/FP4・FP8・BF16の3形式があり、商用利用も可能なApache 2.0ライセンスです。ただし現時点ではllama.cppやmlx-lmが未対応で、手元のMacなどではまだ動かせません。",
-   "url": "https://decrypt.co/384015/china-google-released-fast-new-ai-model-free-baidu-ernie",
-   "date": "2026-11-26T04:03:43.685000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "開発者ツール",
-   "title": "NVIDIA SkillEvaluator — エージェントスキルをCIで検査する",
-   "summary": "Claude CodeやCodexなどで使う「エージェントスキル」を、アプリのコードと同じようにCIでゲートできるオープンソースのCLI/CIフレームワーク。品質・セキュリティ・互換性を3段階で評価し、SkillSpectorやGitleaks、Bandit、Semgrepなどを組み合わせて500以上の静的ルールでチェックする。`skillevaluator ci init` でGitHub/GitLab用のワークフローを自動生成できる。 11/19にGitHubトレンド入り。スキルをあちこちから拾ってくる時代の「サプライチェーン安全装置」として注目されている。",
-   "url": "https://www.agentbeam.com/blog/nvidia-skillevaluator-trending-agent-skill-ci-gates-november-2026",
-   "date": "2026-11-25T22:17:26.893000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "新サービス",
-   "title": "Latch.ai — 経理の定型作業を「一度やって見せるだけ」で自動化",
-   "summary": "プロンプトもワークフロー設計も不要。デスクトップアプリで画面を録画しながらいつも通り作業して解説すると、その手順を「サイドキック」として学習し、以後は同じツールの中で自動で繰り返してくれる。11/10のProduct Huntで話題に。 AIエージェント全盛の中で、「教えるのは一度だけ、あとは現場のツールで動く」という手軽さが、経理担当者に刺さっている。会計ソフトの画面操作を丸ごと引き継げる点が、従来のRPAやチャット型AIとの違い。",
-   "url": "https://openaimaster.ai/7-new-ai-tools-10-november-2026/",
-   "date": "2026-11-25T22:17:24.626000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "新技術",
-   "title": "曲げるほど強くなる、砂糖由来のハイドロゲル",
-   "summary": "米ワシントン大学セントルイス校のチームが、曲げたり伸ばしたりするほど強くなる自己強化型ハイドロゲルを開発し、Nature Materials に発表（11/21）。シクロデキストリンという糖由来の環状分子が、負荷のかかった場所で再配列して結晶化し、組織が整っていく仕組み。1万回の屈曲テストでも性能を維持した。 3Dプリンタ対応で生分解性もあり、柔らかいロボットや関節・義肢、ウェアラブルなど、「使うほど劣化する」という素材の常識を覆すものとして注目されている。",
-   "url": "https://phys.org/news/2026-11-sugar-based-hydrogel.html",
-   "date": "2026-11-25T22:17:24.454000+00:00"
   }
  ]
 }
