@@ -1,6 +1,86 @@
 {
- "generated_at": "2026-11-26T16:07:11.864000+00:00",
+ "generated_at": "2026-11-26T22:16:58.095000+00:00",
  "items": [
+  {
+   "section": "興味",
+   "theme": "新サービス",
+   "title": "Gemini 4 Carbon、一般提供開始",
+   "summary": "Googleの最上位モデル「Gemini 4 Carbon」が11月10日から一般提供に。10月28日の発表当初はサイバーセキュリティ専門家向けの限定プログラムのみだったが、有料開発者・企業向けにGemini APIで、Google AI Ultra加入者向けにGeminiアプリやAntigravity、AI Mode in Searchで使えるようになった。 なぜ話題か：GoogleいわくGemini史上最強のモデルで、長時間のエージェント型ワークフローやサイバーセキュリティ、複雑なソフトウェア開発・科学推論に強いとされる。AnthropicのClaude新機能発表の翌日にGAしたタイミング",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/?ref=refetch.io",
+   "date": "2026-11-26T22:16:58.095000+00:00"
+  },
+  {
+   "section": "興味",
+   "theme": "AIエージェント",
+   "title": "IBM × Microsoft、業界特化型AIエージェント基盤「Imagine Enterprise」を発表",
+   "summary": "IBMとMicrosoftが11月10日、業界固有の業務プロセスを支援するAIエージェントの構築・運用・ガバナンスを可能にするプラットフォーム「Imagine Enterprise」を発表した。IBM Consultingの6,000超の事前構築済みAIエージェント／アセットと、MicrosoftのAI・クラウド・セキュリティ基盤を組み合わせる。 なぜ話題か：「汎用エージェント」から「業界特化エージェント」への流れが大手ベンダー同士の提携という形で具体化したもので、規制産業向けの統制・可観測性・コンプライアンス機能を前面に出している点が特徴。まず金融・保険・小売向けに提供され、製造・エネルギー",
+   "url": "https://prtimes.jp/main/html/rd/p/000000740.000046783.html",
+   "date": "2026-11-26T22:16:58.027000+00:00"
+  },
+  {
+   "section": "興味",
+   "theme": "開発者ツール",
+   "title": "Chrome DevTools MCP v1.14.0",
+   "summary": "Chrome DevToolsチーム公式のMCPサーバー「chrome-devtools-mcp」。Claude CodeやCursor、Copilotなどのコーディングエージェントに実際のChromeブラウザを操作させられるもので、コンソールエラーの確認、ネットワーク検査、パフォーマンス計測、スクリーンショット取得などができる。11月24日にv1.14.0がリリースされた。 なぜ話題か：エージェントが書いたフロントエンドを「ブラウザで実際に動かして確認する」ための事実上の標準になりつつあり、GitHubで約6万スターを集めている。エージェント開発の主戦場が「コードを書く」から「動かして検証す",
+   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+   "date": "2026-11-26T22:16:58.004000+00:00"
+  },
+  {
+   "section": "興味",
+   "theme": "新技術",
+   "title": "Quantinuum × 理研、量子コンピューター「黎明」をH2へアップグレード",
+   "summary": "理化学研究所に設置されたQuantinuumの量子コンピューター「黎明」が、H2システムへのアップグレードを完了。理研の量子・HPCハイブリッド型プラットフォームが世界最高水準の性能になり、従来の古典計算だけでは難しい複雑な量子系のシミュレーションに道が開けた。 なぜ話題か：量子×スーパーコンピューター×AIを組み合わせた「ハイブリッド計算」が実用段階に入りつつある象徴的な動きで、材料シミュレーションや生体分子シミュレーションでのAI活用もすでに始まっている。さらにソフトバンクと連携してAIデータセンターへの量子コンピューター直結も検討中で、「Made with Japan」の耐故障性量子コン",
+   "url": "https://www.kyodo.co.jp/pr/2026-11-11_4048536/",
+   "date": "2026-11-26T22:16:57.978000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "生成AI",
+   "title": "**Sber、GigaChat 4を発表 — 708Bモデル、100万トークンのコンテキスト**",
+   "summary": "ロシア最大手銀行Sberが11月26日、GigaChat 4を発表。708Bパラメータのフラッグシップと37Bのコンパクト版の2モデルで、どちらもネイティブ100万トークンのコンテキストに対応。高速なInstantモードと思考するReasoningモードを1つのチェックポイントで切り替え可能に。708Bの指示チューニング版はMITライセンスで重みを公開。",
+   "url": "https://www.unite.ai/gigachat-4-debuts-with-1m-token-context-and-two-model-sizes/",
+   "date": "2026-11-26T22:05:15.781000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "OSS",
+   "title": "**オープンソースのエージェントツール続々 — デスクトップ操作や検証ツールなど**",
+   "summary": "11月26日付けのまとめで、MITライセンスのRust製ツールHush（エージェントがデスクトップアプリを裏側で操作、1アクション178ms）や、DatadogのEphyra（エージェントがテスト生成器を書き換えるプロパティベーステスト）など、エージェント向けOSSが紹介された。",
+   "url": "https://www.my2cents.ai/news/2026-11-26-open-source-agents/",
+   "date": "2026-11-26T22:05:15.740000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "研究・論文",
+   "title": "**MoLT: ループ型Transformerの表現力と効率を両立する新手法（arXiv 11/26）**",
+   "summary": "ループ型Transformerは層を繰り返し使うことで表現力を高める一方、効率が課題だった。Mixture-of-Loops Transformer（MoLT）はループ間の情報伝達にKVをメモリとして選択的に再利用するMixture-of-Loops Attentionを導入。400Bトークンの事前学習で、700MモデルでOLMo3比1.7倍のトークン効率を達成したと報告。コードも公開。",
+   "url": "https://arxiv.org/abs/2611.34923",
+   "date": "2026-11-26T22:05:15.659000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "AIコーディング",
+   "title": "**Claude Code 2.1.332、MCPサーバー提供のスキル読み込みに対応**",
+   "summary": "Claude Code 2.1.332で、MCPサーバーが提供するスキルを `server:skill` としてスラッシュメニューから読み込めるように。MCPにはバックグラウンドタスクやフォローアップ質問、ファイルアップロードも追加。AnthropicによればMCP SDKの月間ダウンロードは7億件超。",
+   "url": "https://www.harness-hub.org/daily",
+   "date": "2026-11-26T22:05:15.510000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "Python",
+   "title": "**OpenAI Python SDK 3.60.0をリリース — 支出アラートなど追加**",
+   "summary": "OpenAIが11月26日、Python SDK 3.60.0を公開。支出アラート、Responses APIのコンパクション関連フィールドの追加、エージェントセッションに紐づくvaultの更新に対応。Java SDK 4.114.0も同日リリース。",
+   "url": "https://news.yushang.ai/en/2026/11/openai-python-java-sdk-fe44a6",
+   "date": "2026-11-26T22:05:15.361000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "組込",
+   "title": "**Spark MicrosystemsとNordic、ゲーミング向けデュアル無線プラットフォームを発表**",
+   "summary": "Spark MicrosystemsがNordic Semiconductorと共同で、ワイヤレスゲーミング周辺機器向けの超低消費電力プラットフォームを発表。NordicのnRF54LM20ワイヤレスSoCとSparkのSR1120トランシーバーを組み合わせ、Bluetooth LEに加え6.2〜9.5GHz帯の専用低遅延リンクで高ポーリングレートと干渉耐性を両立。まずゲーミングマウスを想定。",
+   "url": "https://www.embedded.com/spark-microsystems-unveils-dual-radio-platform-for-wireless-gaming/?utm_source=eetimes&utm_medium=latestnews&_ga=2.123933066.1671528438.1644750094-1204887681.1597044287",
+   "date": "2026-11-26T22:05:15.304000+00:00"
+  },
   {
    "section": "ニュース",
    "theme": "Steam",
@@ -400,86 +480,6 @@
    "summary": "`cs scan .` を実行するだけで、コードの脆弱性を「見つける→サンドボックスで検証する→修正パッチと回帰テストまで作る」エージェント型のセキュリティツール。CLIのほかTypeScript SDKとGitHub Actionもあり、CIに組み込めます。Apache-2.0ライセンスで、スターは1.4万超。 なぜ話題か：従来のルールベース静的解析と違い、LLMがプロジェクト固有の脅威モデルを立てて検証してから修正案を出す点。AIが書いたコードが増える中で「AI生成コードのセキュリティをどう担保するか」という需要に直結し、GitHub Trending上位に食い込んでいます。なおスキャン自",
    "url": "https://github.com/openai/codex-security",
    "date": "2026-11-25T10:17:15.420000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "新技術",
-   "title": "Google、TPUの新バリエーション「TPU 8tx」「TPU 8i Max」を発表（11/10）",
-   "summary": "TPU 8txはAMDと共同開発した、AIモデルの機密学習・機密推論に特化したチップ。TPU 8i Maxは推論特化のTPU 8iを2個分合体させ、メモリ容量・処理性能・帯域をほぼ倍増させたもの。どちらも今年4月に登場した第8世代TPUの派生で、学習の大規模化と推論の効率化という2方向に広がった形です。 なぜ話題か：Googleがクラウド事業で他社製チップへの依存を減らし、AIインフラを自前でまかなう動きが加速しているため。機密推論向けの専用チップが出てきたのも、企業がAIを業務で使うときの「データの守り方」が本格的な設計テーマになってきた表れです。",
-   "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
-   "date": "2026-11-25T10:17:15.419000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "AIエージェント",
-   "title": "GPT-6.2 Astra / Sol（11/17）— OpenAIの新モデル2種",
-   "summary": "Astraは長時間の専門ワークフローやエージェント型コーディング向けの最上位モデル、Solは日常の技術作業・マルチステップのエージェント作業向けの標準モデル。AstraのAPI価格は前世代比で20%引き下げられ、キャッシュ入力の割引も60%に拡大。どちらもChatGPT WorkとCodexで同日提供開始です。 なぜ話題か：エージェントの長時間自律実行を前提にしたモデル設計が進んでいる点。サイバーセキュリティ評価で「Critical」級に対応しつつ消費者向けの保護も強化されており、エージェントに任せられる仕事の幅が広がる方向に進んでいます。",
-   "url": "https://explainx.ai/blog/openai-gpt-6-2-astra-sol-launch-pricing-benchmarks-november-2026",
-   "date": "2026-11-25T10:17:15.378000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "Python",
-   "title": "**Firebird用Pythonパッケージ3種が更新 — Python 3.14/3.15に対応**",
-   "summary": "firebird-base 2.0.4、firebird-driver 2.1.0、firebird-lib 2.1.0がリリース。3種ともPython 3.14と3.15への対応を表明し、新たにfirebird-embeddedパッケージも公開された。",
-   "url": "https://www.firebirdnews.org/",
-   "date": "2026-11-25T10:04:53.301000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "組込",
-   "title": "**ESP8266/ESP32がアナログ無線機に — 隠れたSDR機能を開放するOSS公開**",
-   "summary": "安価なESPマイコンをソフトウェア無線（SDR）として使うオープンソースプロジェクト「ESP-AnalogRadio」が公開。追加ハードウェアなしで広帯域FMステレオ送信が可能で、AM/FM/SSBの送受信に対応する。",
-   "url": "https://daily.steinslab.io/en/consumer/2026-11-24-hackaday-esp-microcontrollers-analog-radios-sdr/",
-   "date": "2026-11-25T10:04:53.211000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "AIコーディング",
-   "title": "**Claude Code v2.1.332公開 — MCPサーバーのスキルが利用可能に（ベータ）**",
-   "summary": "MCPサーバーが提供するスキルを「server:skill」としてスラッシュメニューから使えるように。新しいPreSkillShellCommandフックイベントも追加され、多数のバグ修正を含む。",
-   "url": "https://aibreakingwire.com/claude-code/releases",
-   "date": "2026-11-25T10:04:53.175000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "研究・論文",
-   "title": "**AI査読者を監査するベンチマーク — 検出率はモデル次第で最大50ポイント差**",
-   "summary": "ケンブリッジ大などの研究者が、実際の論文に357件の誤りを混入させ12のAI査読システムを評価したarXivプレプリントを公開。モデルの選択とプロンプトで検出率が大きく変わるという結果で、自動査読の導入前に判断材料を提供する。",
-   "url": "https://casrai.org/news/auditing-ai-peer-reviewers-error-injection-benchmark-2026",
-   "date": "2026-11-25T10:04:53.161000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "Steam",
-   "title": "**Steamマーケットが今年2度目の刷新 — パーソナライズされたトレンド表示に**",
-   "summary": "Steamコミュニティマーケットのホームページが刷新。遊んでいるゲームに合わせたトレンド表示、ゲーム横断ウォッチリスト、出品価格の再出品なし変更に対応。モバイルでの売却確認もポップアップ表示になった。",
-   "url": "https://www.thekultt.com/article/steam-revamps-its-marketplace-for-the-2nd-time-this-year-2026-karb193948f",
-   "date": "2026-11-25T10:04:53.112000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "生成AI",
-   "title": "**PrismML、Ternary Bonsai 2.5 27Bを公開 — 27Bモデルを5.9GBで動作**",
-   "summary": "Qwen3.8 27Bをベースに、重みを三値（-1/0/1）に量子化したオープンモデル。エージェント性能をほぼ維持したままメモリ使用量を5.9GBに抑え、オフラインで180回のツール呼び出しも可能。Apache 2.0ライセンスでHugging Faceにて公開中。",
-   "url": "https://gigazine.net/gsc_news/en/20261125-ternary-bonsai-2-5-27b/",
-   "date": "2026-11-25T10:04:53.086000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "OSS",
-   "title": "**Rust 1.100公開 — 10年越しのnever型がついに安定化**",
-   "summary": "初の3桁バージョンとなるRust 1.100.0がリリース。「決して返らない」計算を表すnever型が安定化し、Infallibleはそのエイリアスに。カスタムアロケータAPIの中核も安定化し、Cargoには依存関係のクールダウン機能などが追加された。",
-   "url": "https://www.infoq.com/news/2026/11/rust-1-100-never-types/",
-   "date": "2026-11-25T10:04:53.056000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "組込",
-   "title": "electronica 2026に見る組込の潮流 — チップ単体からエコシステム競争へ",
-   "summary": "NordicのnRF71（Wi-Fi＋BLE＋Thread＋オンデバイスAIを1チップに）、ルネサスのRZ/T2N（ロボット制御を1チップに集約）、TriaのEmbedded Kit（Yoctoベースの長期保守付きモジュール）。各社ともシリコンだけでなく周辺の開発・運用環境まで含めた競争に移っている。",
-   "url": "https://embeddedcomputing.com/application/tech-news-roundup/beyond-silicon-embedded-products-and-trends-from-electronica-2026",
-   "date": "2026-11-25T04:04:51.367000+00:00"
   }
  ]
 }
