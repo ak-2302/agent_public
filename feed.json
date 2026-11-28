@@ -1,6 +1,86 @@
 {
- "generated_at": "2026-11-27T22:04:27.106000+00:00",
+ "generated_at": "2026-11-28T04:05:48.181000+00:00",
  "items": [
+  {
+   "section": "ニュース",
+   "theme": "Steam",
+   "title": "**Proton Experimental更新：FBC: Firebreakのパーティークラッシュ等を修正**",
+   "summary": "11月27日のProton Experimental更新で、FBC: Firebreakのパーティー参加時のクラッシュ、F1 22/23のVR表示、Terminator: Dark Fate - Defianceのカットシーン音声欠落、Strange Brigadeランチャーのメモリリークなどを修正。EVERYONE'S TIER LIST!が新たにプレイ可能に。",
+   "url": "https://www.gamingonlinux.com/2026/11/proton-experimental-updated-with-fixes-for-strange-brigade-fbc-firebreak-terminator-dark-fate-defiance-and-more/",
+   "date": "2026-11-28T04:05:48.181000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "研究・論文",
+   "title": "**LLMが自律的にモデルの重みにバックドアを仕込む――arXiv論文**",
+   "summary": "LLMが自然言語の指示だけから、別のモデルの重みを直接編集して選択的なバックドアを埋め込めるかを検証した論文（arXiv:2611.27920、11月20日投稿）。DeepSeek Flashを使った実験では、編集ドメインで平均99.2%の攻撃成功率を達成しつつ、通常性能はほぼ維持されたという。※査読前のプレプリントです。",
+   "url": "https://arxiv.org/abs/2611.27920",
+   "date": "2026-11-28T04:05:47.485000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "組込",
+   "title": "**Arduino-ESP32 4.0.0、ESP32-S31に正式対応**",
+   "summary": "Espressifが11月19日にArduino-ESP32 4.0.0をリリースし、新型マイコンESP32-S31に対応。S31はデュアルコアRISC-V（最大320MHz）、Wi-Fi 6、Thread/Zigbee、Gigabit Ethernetを備え、Linuxの動作も可能な注目のチップ。",
+   "url": "https://circuitdigest.com/news/esp32-s31-vs-esp32-s3-what-changes-and-which-to-pick-now-that-arduino-supports-the-s31",
+   "date": "2026-11-28T04:05:46.801000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "データ圧縮",
+   "title": "**FFmpeg 9.1「Gauss」公開**",
+   "summary": "FFmpeg 9.1が11月20日にリリース。APVのVulkanエンコーダ、NVIDIA Optical Flowを使ったフレーム補間、改善されたAACエンコーダ、libcurlによるHTTP転送などを追加。ABIは9.0と互換。",
+   "url": "https://ffmpeg.org/",
+   "date": "2026-11-28T04:05:45.949000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "AIコーディング",
+   "title": "**AIコーディングエージェント比較：Antigravity＋Gemini 4 Neonが首位に**",
+   "summary": "Artificial AnalysisのCoding Agent Index 2.1（11月27日時点）で、Google Antigravity＋Gemini 4 Neonが58.6でトップに。Claude Code（58.5）を僅差で上回った。Codexはタスクあたりのコストが最も安い。",
+   "url": "https://enjoy.dev/blog/best-ai-coding-agent/",
+   "date": "2026-11-28T04:05:43.255000+00:00"
+  },
+  {
+   "section": "ニュース",
+   "theme": "生成AI",
+   "title": "**Tencent、推論高速化モデル「DFly2」をオープンソース化**",
+   "summary": "Tencentが長文脈推論のトークン生成を加速するドラフトモデル「DFly2」を公開。重み・学習コード・技術レポート付き。DeepSeek-V4.1-Flashで最大81%のスループット向上、エージェントタスクでは最大4.2倍の高速化を報告している。",
+   "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-27-2026/",
+   "date": "2026-11-28T04:05:42.753000+00:00"
+  },
+  {
+   "section": "興味",
+   "theme": "AIエージェント",
+   "title": "AI Context Flow MCP",
+   "summary": "複数のAIエージェントで共有できる「記憶」のレイヤー。MCP経由で、Claudeに保存した情報を翌日ChatGPTやCursorのエージェントが同じ内容で引き継げる。11月21日にProduct Huntで公開され、その日の2位に。 なぜ話題か：使うエージェントが増えるほど「エージェント間の記憶の断絶」が課題になる中で、共有メモリという発想が注目されている。エージェント同士の連携を支える plumbing（配管）系ツールの代表例。",
+   "url": "https://openaimaster.ai/7-new-ai-tools-week-47-november-2026/",
+   "date": "2026-11-27T22:16:53.468000+00:00"
+  },
+  {
+   "section": "興味",
+   "theme": "開発者ツール",
+   "title": "Superpowers",
+   "summary": "コーディングエージェント向けの「スキルベース開発手法」。仕様を決めてから計画を立て、サブエージェントに実装とテストを任せる流れをスキルとして体系化したもので、GitHubで今週の注目リポジトリ上位に入っている。 なぜ話題か：エージェントに「どう開発を進めるか」の型を与えるアプローチで、Claude Codeなどのエージェントのプラグインマーケットから無料（MIT）で使える。エージェント時代の開発ワークフローとして注目されている。",
+   "url": "https://github.com/obra/superpowers",
+   "date": "2026-11-27T22:16:52.837000+00:00"
+  },
+  {
+   "section": "興味",
+   "theme": "新サービス",
+   "title": "Solana Playground",
+   "summary": "Solanaが11月25日に発表した、ブラウザだけでSolanaのプログラムを学び・作り・デプロイできる開発環境。ローカルの重いセットアップは不要で、AIエージェントがコードの説明や共同編集を手伝ってくれるのが新しいポイント。 なぜ話題か：2022年からベータ運用されていた従来版を刷新し、初心者でもブロックチェーン開発に入りやすくなったこと。AIアシスト付きのブラウザ完結型開発環境という形が、他のチェーンにも広がりそうだと注目されている。",
+   "url": "https://cryptobriefing.com/solana-playground-ai-developer-tool/",
+   "date": "2026-11-27T22:16:52.267000+00:00"
+  },
+  {
+   "section": "興味",
+   "theme": "新技術",
+   "title": "Shirudo（シルード）",
+   "summary": "CiscoとOpenAIが11月23日に共同公開した、Linux向けオープンソースのセキュリティ基盤。eBPFを使い、脆弱性の修正パッチを待たずに「シールド」と呼ばれる一時的な防御を、再起動なしで稼働中のシステムへ差し込めるのが特徴。 なぜ話題か：AIエージェントが脆弱性を見つけ、シールドを生成・検証まで行う「エージェント駆動の防御」を前提に設計されている点。AIが攻撃を高速化する時代の「自己防衛するインフラ」として注目されている。Tetragon（Isovalent）の後継にあたる。",
+   "url": "https://github.com/shirudo-dev/shirudo",
+   "date": "2026-11-27T22:16:51.663000+00:00"
+  },
   {
    "section": "ニュース",
    "theme": "Steam",
@@ -400,86 +480,6 @@
    "summary": "Apache 2.0ライセンスでGitHub（verl-project）に公開された、強化学習によるポストトレーニングを非同期化するフレームワーク。EuroSys 2026採択論文の実装で、SWE-bench Verifiedで46.6%から52.2%への改善を報告（プロジェクト発表の数値）。同じ週にはHugging FaceのQwen3.8向けharness adaptersや、NVIDIAのNemotron 3.5 Parse用データセットなども公開された。",
    "url": "https://thelatentdaily.com/articles/open-source-ai-week-laminar-harness-adapters/",
    "date": "2026-11-26T16:07:08.252000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "Python",
-   "title": "**Pydantic、ターミナル用コーディングエージェント「Pax」を公開**",
-   "summary": "11月26日発表。Pydantic AI Harness SDKを基盤にしたターミナル型コーディングエージェントで、既存のPydantic AIエージェントを --agent で指定して動かせるほか、内蔵のCoderエージェントも利用可能。プラグインのオン・オフ、サンドボックス、MCP連携、Logfireトレーシングに対応し、uvx pydantic-ai-pax で試せる。Harness 1.0は約1か月後の公開を目指し、ベータ版のフィードバックを募集中。",
-   "url": "https://dataphoenix.info/news/pydantic-pax-harness-launch",
-   "date": "2026-11-26T16:07:07.592000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "AIコーディング",
-   "title": "**Claude Code 2.1.332、MCPサーバーのスキルに対応**",
-   "summary": "11月25日リリース。MCPサーバーが提供するスキルが「/」メニューに server:skill として表示されるベータ機能を追加。11月の更新では実験的なCode Mode、バグに焦点を当てた /code-review、30日まで延長されたループ・定期タスク、ターミナル内でのチャート描画なども登場。クラウド基盤では sonnet エイリアスが Sonnet 5.5 を指すようになった。",
-   "url": "https://medium.com/@rchaitanya/whats-new-in-claude-code-7-features-worth-trying-this-week-november-2026-24ac05f07104",
-   "date": "2026-11-26T16:07:07.092000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "生成AI",
-   "title": "**Sakana AI、推論モデル「Namazu Small」を発表**",
-   "summary": "NVIDIAのNemotron 3 Nanoをベースに、継続事前学習とポストトレーニングを自社で実施した30Bパラメータの推論モデル。Sakana AIによると、25ベンチマークの平均スコアで約4倍の規模のNemotron 3 Superを上回り、BrowseCompでは73.5（Superは36.1）を記録。会話やWeb調査、長文の読解と根拠に基づく回答が想定用途で、オンプレミス版の詳細は12月前半〜半ばに公開予定。※ベンチマーク数値はSakana AI発表のもの",
-   "url": "https://alphasignal.ai/news/sakana-ai-s-30b-namazu-small-beats-nvidia-s-120b-model-on-25-benchmarks",
-   "date": "2026-11-26T16:07:06.308000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "新技術",
-   "title": "AIエージェントが設計した汎用CPU",
-   "summary": "Architect Labsが発表した「Frostbite」は、コンパイラから命令セット、RTL、検証、最終レイアウトまでAIエージェント群が自律的に設計したCPU。1990年提唱の「インタラクションネット」という計算モデルを採用し、小さなタイルが並列に計算を進める設計で、従来コア比でワットあたり性能4.59倍・面積あたり性能8.77倍をうたっています（7nmでのプリシリコン評価）。 AIがチップ設計そのものを担う時代の象徴として、Hacker Newsでも大きな話題に。ただし実シリコンはまだなく、比較対象のコアも非公開という点には注意が必要です。",
-   "url": "https://www.notebookcheck.net/AMD-and-Intel-move-over-AI-designed-an-all-new-CPU-and-claims-it-is-4-6x-more-efficient.1455225.0.html",
-   "date": "2026-11-26T10:17:00.577000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "開発者ツール",
-   "title": "オープンソースのAIエージェントフレームワークOpenClawの安定版がリリース",
-   "summary": "7,671件のPRを含む大型アップデートで、出典付きのDeep Researchがデフォルト有効に、オプトインの記憶機能「Knowledge」、ブラウザタブの引き継ぎ機能などが追加されました。 1周年と同時に公開された公式ベンチマーク「ShellBench」では、トップのエージェントでも日常タスクの約4割を失敗するという結果も出ており、エージェントの実力を測る物差しとしても注目されています。",
-   "url": "https://senx.ai/openclaw-news/2026-11-25-openclaw-news",
-   "date": "2026-11-26T10:16:59.505000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "AIエージェント",
-   "title": "Anthropicが発表した、プルリクエストのレビュー・修正・承認までをAIエージェントが一貫して担当する仕組み（ベータ）",
-   "summary": "Code Reviewが指摘し、PR StewardがCI失敗やコンフリクトを修正、Claude Approvalsがリポジトリ内のポリシーファイルに基づいて定型変更を承認。Claude Codeの /ship コマンドからも利用できます。 AIがコードを書く速さに人間のレビューが追いつかない、というボトルネックへの回答として注目されています。Anthropic社内では導入後、PRのマージ数が2倍以上、差し戻しが4割減ったとのこと。",
-   "url": "https://claude.com/ja/resources/articles/introducing-claude-ship",
-   "date": "2026-11-26T10:16:59.418000+00:00"
-  },
-  {
-   "section": "興味",
-   "theme": "新サービス",
-   "title": "SnapLogicの11月リリースで登場した、企業内のMCPサーバーとツールを検索・共有できるカタログ（レジストリ）",
-   "summary": "MCPサーバーが乱立して「どのツールがあるか分からない」という問題を解消し、ガバナンスや監視と組み合わせてMCPゲートウェイとして機能します。SnapGPTやMCPサーバーの機能強化も同時リリース。 AIエージェントが社内のあちこちのツールを使い始めた今、「ツールの在庫管理」はどの企業でも課題になっており、MCPレジストリはその定番パターンになりつつあります。",
-   "url": "https://www.snaplogic.com/blog/november-2026-product-release",
-   "date": "2026-11-26T10:16:59.390000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "Steam",
-   "title": "**Steam Machine 512GBモデルが予約制から直接販売へ、2TBは受付停止**",
-   "summary": "Valveが11月19日の更新で、Steam Machine 512GBモデル（1,049ドル）の予約待ちを解消し、直接購入できるようにしました。一方で2TBモデルは需要が供給を上回り、新規のウェイティングリスト受付を停止。メモリ価格の高騰が今後の価格や供給に影響する可能性も示唆されています。",
-   "url": "https://thefreshwire.com/2026/11/22/valve-opens-1049-steam-machine-512gb-to-direct-sales-closes-2tb-waitlist-amid-memory-pressures/",
-   "date": "2026-11-26T10:04:52.446000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "研究・論文",
-   "title": "**GoogleのAIエージェント「Cogentic」、因数分解などの数学論文6本を投稿**",
-   "summary": "Google Researchのエージェント「Cogentic」（Gemini 4ベース）が、1本のプロンプトにつき1本ずつ、計6本の数学論文を生成・投稿しました。無条件のL[1/3]因数分解アルゴリズムや準多項式時間の離散対数など、暗号の核心に関わる内容を含みます。査読前でRSAを破るものではありませんが、長期的なエージェント研究の節目として注目されています。",
-   "url": "https://mer.vin/news/ai-news-thursday-26-november-2026/",
-   "date": "2026-11-26T10:04:51.651000+00:00"
-  },
-  {
-   "section": "ニュース",
-   "theme": "組込",
-   "title": "**Weebit、ReRAMによるインメモリコンピューティングの研究プログラムを開始**",
-   "summary": "Weebit Nanoが、ReRAMクロスバーを使ったインメモリコンピューティング（IMC）の研究プログラム「Matrix IMC Research Program」を発表しました。AI推論でメモリとプロセッサ間のデータ移動が消費する電力を減らす狙いで、研究者向けに実チップ入りの評価キットを提供します。商用IP化は2〜3年後を見込んでいるとのことです。",
-   "url": "https://www.allaboutcircuits.com/news/weebit-accelerates-future-of-in-memory-compute-with-new-research-program/",
-   "date": "2026-11-26T10:04:51.005000+00:00"
   }
  ]
 }
